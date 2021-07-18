@@ -7,4 +7,4 @@ To start dev server
 yarn start
 ```
 
-Inspired from the [website](www.covid19india.org)
+Inspired from the [website](https://www.covid19india.org/)
