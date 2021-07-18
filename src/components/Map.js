@@ -10,6 +10,8 @@ const HEIGHT = 500;
 
 const MISSING_DATA_COLOR = 'transparent';
 
+const CIRCLE_DECREASING_FACTOR = 0.0000019;
+
 //separate function returning geoPath(geoIdentity());
 const projection = geoIdentity();
 const path = geoPath(projection);
@@ -19,9 +21,9 @@ const colorInterpolator = (statsType) => {
     case 'Rainfall':
       return (t) => interpolateBlues(t * 0.85);
     case 'Literacy':
-      return (t) => interpolateGreens(t * 0.85);
+      return (t) => interpolateGreens(t * 1);
     case 'Population':
-      return (t) => interpolateGreys(t * 0.85);
+      return (t) => interpolateGreys(t * 0.00002);
     case 'sexRatio':
       return (t) => interpolatePurples(t * 0.85);
     default:
@@ -29,30 +31,42 @@ const colorInterpolator = (statsType) => {
   }
 };
 
-const colorValue = (d) => {
-  // console.log("d", d);
-  return d.Average;
+const colorValue = (d, statsType) => {
+  switch (statsType) {
+    case 'Rainfall':
+      // console.log("d", d);
+      return d.Average;
+    case 'Literacy':
+      // console.log("d", d);
+      return d.Literacy;
+    case 'Population':
+      // console.log("d", d);
+      return d.Population;
+  }
 }
 
 const Map = ({geoData, statistics, statsType}) => {
 
-  // console.log(statsType);
+  // console.log(statistics);
   //DataStructure
 
   //mapScale
   const colorScale = scaleSequential(colorInterpolator(statsType))
-    .domain([0, 150]);
+    .domain([0, 100]);
 
   // console.log(colorValue());
   // console.log("colorScale: ", colorScale(colorValue()));
   const geoDataD = feature(geoData, geoData.objects.districts).features;
   // const geoDataS = feature(data, data.objects.states).features;
-  // console.log(geoDataD);
+  console.log(geoDataD);
   // console.log(geoDataS);
 
   const svgRef = useRef();
 
   useEffect(() => {
+
+    if (statsType === 'Population') return
+
     const svg = select(svgRef.current);
 
     
@@ -65,7 +79,7 @@ const Map = ({geoData, statistics, statsType}) => {
       .attr('class', 'district')
       .attr('fill', feature => {
         // console.log("feature", feature);
-        var result = statistics.filter((obj) => {
+        let result = statistics.filter((obj) => {
           // console.log("obj", obj);
           return obj.District === feature.properties.district
         });
@@ -73,7 +87,7 @@ const Map = ({geoData, statistics, statsType}) => {
           // console.log(result[0]);
           // console.log(colorValue(result[0]));
           // console.log(colorScale(colorValue(result[0])));
-          return colorScale(colorValue(result[0]))}
+          return colorScale(colorValue(result[0], statsType))}
         else {
           // console.log("State: ", feature.properties.st_nm, "; District: ", feature.properties.district)
           return MISSING_DATA_COLOR;
@@ -83,6 +97,60 @@ const Map = ({geoData, statistics, statsType}) => {
 
   })
 
+
+  //Rendering Population
+  useEffect(() => {
+    if (statsType !== 'Population') return
+
+    const svg = select(svgRef.current);
+
+    let circlesData = [];
+
+    circlesData = geoDataD.map((feature) => {
+      let result = statistics.filter((obj) => {
+        // console.log("obj", obj);
+        return obj.District === feature.properties.district
+      });
+
+      // console.log(result);
+
+      if (result[0]) {
+        return {
+          ...feature,
+          value: result[0].Population * CIRCLE_DECREASING_FACTOR
+        };
+      } else {
+        return {
+          ...feature,
+          value: 0
+        }
+      }
+    })
+
+    console.log(circlesData)
+
+    svg
+      .select('.circles')
+      .selectAll('circle')
+      .data(circlesData)
+      .join((enter) => {
+        console.log(statistics);
+        
+        enter
+          .append('circle')
+          .attr('transform', (feature) => `translate(${path.centroid(feature)})`)
+          .attr('r', (feature) => {
+            console.log(feature.value);
+            if (feature.value) return feature.value
+            else return 1
+            })
+          .attr('class', 'bubble')
+          .attr('fill', 'rgba(0, 0, 0, .5)')
+      })
+
+    
+  }, [])
+
   return (
     <div className='svg-parent'>
       <svg
@@ -91,7 +159,7 @@ const Map = ({geoData, statistics, statsType}) => {
         id='chart'
         ref={svgRef}>
         <g className='districts' />
-        <g className='states' />
+        <g className='circles' />
       </svg>
     </div>
   )
