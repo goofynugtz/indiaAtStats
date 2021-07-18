@@ -2,6 +2,11 @@
 
 It renders a map of India based on the statistics and data available publicly.
 
+To set up dependencies
+```bash
+yarn
+```
+
 To start dev server
 ```bash
 yarn start
