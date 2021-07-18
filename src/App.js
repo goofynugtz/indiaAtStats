@@ -34,12 +34,11 @@ function App() {
   // const filteredRainfallStats = rainfallStatisticsRAW.filter(row => row.Year === SELECTED_YEAR);
 
   // const [statsToRender, setStatsToRender] = useState('Rainfall');
-  const [statisticsData, setStatisticsData] = useState(statistics.population);
+  const [statisticsData, setStatisticsData] = useState(statistics.literacy);
   console.log(statisticsData);
   // const [stats, setStats] = useState(filteredRainfallStats);
 
-  // switchToLiteracyHandler();
-
+  
 
   // statsChangeHandler('literacy');
   // console.log(literacyStatistics);
@@ -48,6 +47,12 @@ function App() {
 
   return (
     <div className="App">
+      <div>
+        <button onClick={() => {setStatisticsData(statistics.rainfall)}}>Rainfall</button>
+        <button onClick={() => {setStatisticsData(statistics.literacy)}}>Literacy</button>
+        <button onClick={() => {setStatisticsData(statistics.population)}}>Population</button>
+        <button onClick={() => {setStatisticsData(statistics.sexRatio)}}>Sex Ratio</button>
+      </div>
       <Map 
       className='map-visualizer'
       geoData={geodata}
