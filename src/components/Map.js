@@ -63,16 +63,18 @@ const Map = ({geoData, statistics, statsType}) => {
 
   const svgRef = useRef();
 
+
+  //Rendering districts
   useEffect(() => {
 
     if (statsType === 'Population') return
 
     const svg = select(svgRef.current);
-
     
-    //Rendering districts
+    svg.selectAll('.circle').remove();
+
     svg
-      .select('.districts')
+      .select('.choropleth')
       .selectAll('path')
       .data(geoDataD)
       .join('path')
@@ -108,7 +110,6 @@ const Map = ({geoData, statistics, statsType}) => {
 
     circlesData = geoDataD.map((feature) => {
       let result = statistics.filter((obj) => {
-        // console.log("obj", obj);
         return obj.District === feature.properties.district
       });
 
@@ -127,7 +128,9 @@ const Map = ({geoData, statistics, statsType}) => {
       }
     })
 
-    console.log(circlesData)
+    console.log(circlesData);
+
+    svg.selectAll('.district').remove();
 
     svg
       .select('.circles')
@@ -140,16 +143,16 @@ const Map = ({geoData, statistics, statsType}) => {
           .append('circle')
           .attr('transform', (feature) => `translate(${path.centroid(feature)})`)
           .attr('r', (feature) => {
-            console.log(feature.value);
+            // console.log(feature.value);
             if (feature.value) return feature.value
             else return 1
             })
-          .attr('class', 'bubble')
+          .attr('class', 'circle')
           .attr('fill', 'rgba(0, 0, 0, .5)')
       })
 
     
-  }, [])
+  })
 
   return (
     <div className='svg-parent'>
@@ -158,7 +161,7 @@ const Map = ({geoData, statistics, statsType}) => {
         height={HEIGHT}
         id='chart'
         ref={svgRef}>
-        <g className='districts' />
+        <g className='choropleth' />
         <g className='circles' />
       </svg>
     </div>
