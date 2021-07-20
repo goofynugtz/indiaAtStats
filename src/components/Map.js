@@ -19,15 +19,15 @@ const path = geoPath(projection);
 const colorInterpolator = (statsType) => {
   switch (statsType) {
     case 'Rainfall':
-      return (t) => interpolateBlues(t * 0.85);
+      return (t) => interpolateBlues(t * 1);
     case 'Literacy':
       return (t) => interpolateGreens(t * 1);
     case 'Population':
       return (t) => interpolateGreys(t * 0.00002);
-    case 'sexRatio':
-      return (t) => interpolatePurples(t * 0.85);
+    case 'SexRatio':
+      return (t) => interpolatePurples(t * 1);
     default:
-      return (t) => interpolateOranges(t * 0.85);
+      return (t) => interpolateOranges(t * 1);
   }
 };
 
@@ -42,23 +42,46 @@ const colorValue = (d, statsType) => {
     case 'Population':
       // console.log("d", d);
       return d.Population;
+    case 'SexRatio':
+      return d.SexRatio;
+    default:
+      
+      return d.Average;
   }
 }
 
 const Map = ({geoData, statistics, statsType}) => {
 
-  // console.log(statistics);
+  console.log(statistics);
   //DataStructure
 
   //mapScale
+  let maximumValue, minimumValue;
+  switch (statsType) {
+    case 'Rainfall':
+      maximumValue = 125; minimumValue = 0;
+      break;
+    case 'Literacy':
+      maximumValue = 110; minimumValue = 0;
+      break;
+    case 'SexRatio':
+      maximumValue = 1200; minimumValue = 800;
+      break;
+    default:
+      maximumValue = 100;
+      break;
+  }
+  
+  console.log(maximumValue);
+
   const colorScale = scaleSequential(colorInterpolator(statsType))
-    .domain([0, 100]);
+    .domain([minimumValue, maximumValue]);
 
   // console.log(colorValue());
   // console.log("colorScale: ", colorScale(colorValue()));
   const geoDataD = feature(geoData, geoData.objects.districts).features;
   // const geoDataS = feature(data, data.objects.states).features;
-  console.log(geoDataD);
+  // console.log(geoDataD);
   // console.log(geoDataS);
 
   const svgRef = useRef();
@@ -128,7 +151,7 @@ const Map = ({geoData, statistics, statsType}) => {
       }
     })
 
-    console.log(circlesData);
+    // console.log(circlesData);
 
     svg.selectAll('.district').remove();
 
@@ -137,7 +160,7 @@ const Map = ({geoData, statistics, statsType}) => {
       .selectAll('circle')
       .data(circlesData)
       .join((enter) => {
-        console.log(statistics);
+        // console.log(statistics);
         
         enter
           .append('circle')
