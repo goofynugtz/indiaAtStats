@@ -1,14 +1,12 @@
-/* 
-Colour-Pallete
-light-grey: rgba(255, 255, 255, .1)
-
-*/
-
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 	/* scrollbar-width: none; */
+}
+
+* {
+  font-family: 'Archia';
 }
 
 .App {
