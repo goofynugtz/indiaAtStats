@@ -1,7 +1,8 @@
 import './App.css';
 import Map from './components/Map';
+import Table from './components/ObservationTable';
 import geodata from './india.json';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import rainfallStatisticsRAW from './data/rainfallStats.json';
 import literacyStatistics from './data/literacy.json';
 import populationStatistics from './data/population.json';
@@ -30,24 +31,12 @@ function App() {
     }
   }
 
-  // console.log(rainfallStatisticsRAW);
-  // const filteredRainfallStats = rainfallStatisticsRAW.filter(row => row.Year === SELECTED_YEAR);
-
-  // const [statsToRender, setStatsToRender] = useState('Rainfall');
   const [statisticsData, setStatisticsData] = useState(statistics.literacy);
-  console.log(statisticsData);
-  // const [stats, setStats] = useState(filteredRainfallStats);
 
-  
-
-  // statsChangeHandler('literacy');
-  // console.log(literacyStatistics);
-  // console.log(populationStatistics);
-  // console.log(sexRatioStatistics);
 
   return (
     <div className="App">
-      <div>
+      <div className='switches'>
         <button onClick={() => {setStatisticsData(statistics.rainfall)}}>Rainfall</button>
         <button onClick={() => {setStatisticsData(statistics.literacy)}}>Literacy</button>
         <button onClick={() => {setStatisticsData(statistics.population)}}>Population</button>
@@ -58,6 +47,7 @@ function App() {
       geoData={geodata}
       statistics={statisticsData.data}
       statsType={statisticsData.heading}/>
+      <Table statistics={statisticsData.data}/>
     </div>
   );
 }
