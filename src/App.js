@@ -33,14 +33,15 @@ function App() {
 
   const [statisticsData, setStatisticsData] = useState(statistics.literacy);
 
+  
 
   return (
     <div className="App">
       <div className='switches'>
-        <button onClick={() => {setStatisticsData(statistics.rainfall)}}>Rainfall</button>
-        <button onClick={() => {setStatisticsData(statistics.literacy)}}>Literacy</button>
-        <button onClick={() => {setStatisticsData(statistics.population)}}>Population</button>
-        <button onClick={() => {setStatisticsData(statistics.sexRatio)}}>Sex Ratio</button>
+        <button className='switch rainfall' onClick={() => {setStatisticsData(statistics.rainfall)}}>Rainfall</button>
+        <button className='switch literacy' onClick={() => {setStatisticsData(statistics.literacy)}}>Literacy</button>
+        <button className='switch population' onClick={() => {setStatisticsData(statistics.population)}}>Population</button>
+        <button className='switch sex-ratio' onClick={() => {setStatisticsData(statistics.sexRatio)}}>Sex Ratio</button>
       </div>
       <Map 
       className='map-visualizer'

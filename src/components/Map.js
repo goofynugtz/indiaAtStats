@@ -62,7 +62,7 @@ const Map = ({geoData, statistics, statsType}) => {
       maximumValue = 125; minimumValue = 0;
       break;
     case 'Literacy':
-      maximumValue = 110; minimumValue = 0;
+      maximumValue = 110; minimumValue = 35;
       break;
     case 'SexRatio':
       maximumValue = 1200; minimumValue = 800;

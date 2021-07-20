@@ -12,8 +12,10 @@ html {
 .App {
   margin: 0 auto;
   max-width: 100rem;
+  height: 100vh;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .switches {
@@ -21,8 +23,50 @@ html {
   flex-direction: column;
 }
 
-.svg-parent {
+.switches .switch {
+  background: none;
+  appearance: none;
+  border: 0;
+  padding: 2.5rem 2rem;
+  margin: 1rem 0;
+  border-radius: .5rem;
+  transition: all .25s;
+}
 
+.rainfall:hover {
+  background-color: #529bcc6c;
+}
+
+.rainfall:active {
+  background-color: #529CCC;
+}
+
+.literacy:hover {
+  background-color: #58b66877;
+}
+
+.literacy:active {
+  background-color: #58B668;
+}
+
+.population:hover {
+  background-color: #7575756b;
+}
+
+.population:active {
+  background-color: #757575;
+}
+
+.sex-ratio:hover {
+  background-color: #938fc371;
+}
+
+.sex-ratio:active {
+  background-color: #938FC3;
+}
+
+.svg-parent {
+  margin: 5rem;
 }
 
 /* Table */
