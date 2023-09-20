@@ -9,6 +9,32 @@ html {
   font-family: 'Archia';
 }
 
+.dark-mode {
+	--background-color: #1A1B26;
+	--accent: #0d92ff;
+	--color: #ffffff;
+	--color-light: rgba(255,255,255, .5);
+	--transparency-level-1: rgba(255, 255, 255, 0.05);
+	--transparency-level-2: rgba(255, 255, 255, 0.2);
+	--transparency-level-3: rgba(255, 255, 255, 0.5);
+}
+
+.light-mode {
+	--background-color: #FAFAFA;
+	--accent: #0d92ff;
+	--color: #000000;
+	--color-light: rgba(0, 0, 0, .6);
+	--transparency-level-1: rgba(0, 0, 0, 0.05);
+	--transparency-level-2: rgba(0, 0, 0, 0.2);
+	--transparency-level-3: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  transition: background-color 0.3s ease;
+}
+
 .App {
   margin: 0 auto;
   max-width: 100rem;
@@ -16,6 +42,20 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  height: 100vh;
+}
+
+.navbar > div {
+  padding: 3rem 5rem;
 }
 
 .switches {
@@ -26,6 +66,7 @@ html {
 .switches .switch {
   background: none;
   appearance: none;
+  color: var(--color);
   border: 0;
   padding: 2.5rem 2rem;
   margin: 1rem 0;
@@ -33,36 +74,42 @@ html {
   transition: all .25s;
 }
 
+
 .rainfall:hover {
-  background-color: #529bcc6c;
+  background-color: #529bcc3f;
 }
 
-.rainfall:active {
-  background-color: #529CCC;
+.rainfall.active {
+  background-color: #81c5e0;
+  color: #000000;
 }
+
 
 .literacy:hover {
-  background-color: #58b66877;
+  background-color: #58b66838;
 }
 
-.literacy:active {
-  background-color: #58B668;
+.literacy.active {
+  background-color: #9ae4a7;
+  color: #000000;
 }
 
 .population:hover {
-  background-color: #7575756b;
+  background-color: #75757541;
 }
 
-.population:active {
-  background-color: #757575;
+.population.active {
+  background-color: #b9b9b9;
+  color: #000000;
 }
 
 .sex-ratio:hover {
-  background-color: #938fc371;
+  background-color: #938fc336;
 }
 
-.sex-ratio:active {
-  background-color: #938FC3;
+.sex-ratio.active {
+  background-color: #b2ade9;
+  color: #000000;
 }
 
 .svg-parent {

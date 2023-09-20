@@ -1,642 +1,3202 @@
 [
-{"District":"Thane","State":"Maharashtra","SexRatio":"886"},
-{"District":"North Twenty Four Parganas","State":"West Bengal","SexRatio":"955"},
-{"District":"Bangalore","State":"Karnataka","SexRatio":"916"},
-{"District":"Pune","State":"Maharashtra","SexRatio":"915"},
-{"District":"Mumbai Suburban","State":"Maharashtra","SexRatio":"860"},
-{"District":"South Twenty Four Parganas","State":"West Bengal","SexRatio":"956"},
-{"District":"Barddhaman","State":"West Bengal","SexRatio":"945"},
-{"District":"Ahmadabad","State":"Gujarat","SexRatio":"904"},
-{"District":"Murshidabad","State":"West Bengal","SexRatio":"958"},
-{"District":"Jaipur","State":"Rajasthan","SexRatio":"910"},
-{"District":"Nashik","State":"Maharashtra","SexRatio":"934"},
-{"District":"Surat","State":"Gujarat","SexRatio":"787"},
-{"District":"Allahabad","State":"Uttar Pradesh","SexRatio":"901"},
-{"District":"Paschim Medinipur","State":"West Bengal","SexRatio":"966"},
-{"District":"Patna","State":"Bihar","SexRatio":"897"},
-{"District":"Hugli","State":"West Bengal","SexRatio":"961"},
-{"District":"Rangareddy","State":"Andhra Pradesh","SexRatio":"961"},
-{"District":"Nadia","State":"West Bengal","SexRatio":"947"},
-{"District":"East Godavari","State":"Andhra Pradesh","SexRatio":"1006"},
-{"District":"Purbi Champaran","State":"Bihar","SexRatio":"902"},
-{"District":"Purba Medinipur","State":"West Bengal","SexRatio":"938"},
-{"District":"Guntur","State":"Andhra Pradesh","SexRatio":"1003"},
-{"District":"Haora","State":"West Bengal","SexRatio":"939"},
-{"District":"Muzaffarpur","State":"Bihar","SexRatio":"900"},
-{"District":"Belgaum","State":"Karnataka","SexRatio":"973"},
-{"District":"Moradabad","State":"Uttar Pradesh","SexRatio":"906"},
-{"District":"Ghaziabad","State":"Uttar Pradesh","SexRatio":"881"},
-{"District":"Nagpur","State":"Maharashtra","SexRatio":"951"},
-{"District":"Chennai","State":"Tamil Nadu","SexRatio":"989"},
-{"District":"Azamgarh","State":"Uttar Pradesh","SexRatio":"1019"},
-{"District":"Lucknow","State":"Uttar Pradesh","SexRatio":"917"},
-{"District":"Kanpur Nagar","State":"Uttar Pradesh","SexRatio":"862"},
-{"District":"Ahmadnagar","State":"Maharashtra","SexRatio":"939"},
-{"District":"Krishna","State":"Andhra Pradesh","SexRatio":"992"},
-{"District":"Kolkata","State":"West Bengal","SexRatio":"908"},
-{"District":"Jaunpur","State":"Uttar Pradesh","SexRatio":"1024"},
-{"District":"Madhubani","State":"Bihar","SexRatio":"926"},
-{"District":"Sitapur","State":"Uttar Pradesh","SexRatio":"888"},
-{"District":"Bareilly","State":"Uttar Pradesh","SexRatio":"887"},
-{"District":"Gorakhpur","State":"Uttar Pradesh","SexRatio":"950"},
-{"District":"Agra","State":"Uttar Pradesh","SexRatio":"868"},
-{"District":"Gaya","State":"Bihar","SexRatio":"937"},
-{"District":"Solapur","State":"Maharashtra","SexRatio":"938"},
-{"District":"Visakhapatnam","State":"Andhra Pradesh","SexRatio":"1006"},
-{"District":"Samastipur","State":"Bihar","SexRatio":"911"},
-{"District":"Jalgaon","State":"Maharashtra","SexRatio":"925"},
-{"District":"Chittoor","State":"Andhra Pradesh","SexRatio":"997"},
-{"District":"Vadodara","State":"Gujarat","SexRatio":"934"},
-{"District":"Muzaffarnagar","State":"Uttar Pradesh","SexRatio":"889"},
-{"District":"Malappuram","State":"Kerala","SexRatio":"1098"},
-{"District":"Hardoi","State":"Uttar Pradesh","SexRatio":"868"},
-{"District":"Anantapur","State":"Andhra Pradesh","SexRatio":"977"},
-{"District":"Raipur","State":"Chhattisgarh","SexRatio":"984"},
-{"District":"Kurnool","State":"Andhra Pradesh","SexRatio":"988"},
-{"District":"Mahbubnagar","State":"Andhra Pradesh","SexRatio":"977"},
-{"District":"Kheri","State":"Uttar Pradesh","SexRatio":"894"},
-{"District":"Kancheepuram","State":"Tamil Nadu","SexRatio":"986"},
-{"District":"Maldah","State":"West Bengal","SexRatio":"944"},
-{"District":"Saran","State":"Bihar","SexRatio":"954"},
-{"District":"Hyderabad","State":"Andhra Pradesh","SexRatio":"954"},
-{"District":"Darbhanga","State":"Bihar","SexRatio":"911"},
-{"District":"West Godavari","State":"Andhra Pradesh","SexRatio":"1004"},
-{"District":"Vellore","State":"Tamil Nadu","SexRatio":"1007"},
-{"District":"Pashchim Champaran","State":"Bihar","SexRatio":"909"},
-{"District":"Kolhapur","State":"Maharashtra","SexRatio":"957"},
-{"District":"Jalpaiguri","State":"West Bengal","SexRatio":"953"},
-{"District":"Rajkot","State":"Gujarat","SexRatio":"927"},
-{"District":"Sultanpur","State":"Uttar Pradesh","SexRatio":"983"},
-{"District":"Karimnagar","State":"Andhra Pradesh","SexRatio":"1008"},
-{"District":"Thiruvallur","State":"Tamil Nadu","SexRatio":"987"},
-{"District":"Aurangabad","State":"Maharashtra","SexRatio":"923"},
-{"District":"Jodhpur","State":"Rajasthan","SexRatio":"916"},
-{"District":"Bijnor","State":"Uttar Pradesh","SexRatio":"917"},
-{"District":"Budaun","State":"Uttar Pradesh","SexRatio":"871"},
-{"District":"Varanasi","State":"Uttar Pradesh","SexRatio":"913"},
-{"District":"Alwar","State":"Rajasthan","SexRatio":"895"},
-{"District":"Aligarh","State":"Uttar Pradesh","SexRatio":"882"},
-{"District":"North West Delhi","State":"Delhi","SexRatio":"865"},
-{"District":"Ghazipur","State":"Uttar Pradesh","SexRatio":"952"},
-{"District":"Bankura","State":"West Bengal","SexRatio":"957"},
-{"District":"Kushinagar","State":"Uttar Pradesh","SexRatio":"961"},
-{"District":"Ganjam","State":"Orissa","SexRatio":"983"},
-{"District":"Warangal","State":"Andhra Pradesh","SexRatio":"997"},
-{"District":"Birbhum","State":"West Bengal","SexRatio":"956"},
-{"District":"Bulandshahar","State":"Uttar Pradesh","SexRatio":"896"},
-{"District":"Ludhiana","State":"Punjab","SexRatio":"873"},
-{"District":"Vaishali","State":"Bihar","SexRatio":"895"},
-{"District":"Nalgonda","State":"Andhra Pradesh","SexRatio":"983"},
-{"District":"Bahraich","State":"Uttar Pradesh","SexRatio":"892"},
-{"District":"Salem","State":"Tamil Nadu","SexRatio":"954"},
-{"District":"Saharanpur","State":"Uttar Pradesh","SexRatio":"890"},
-{"District":"Viluppuram","State":"Tamil Nadu","SexRatio":"987"},
-{"District":"Coimbatore","State":"Tamil Nadu","SexRatio":"1000"},
-{"District":"Meerut","State":"Uttar Pradesh","SexRatio":"886"},
-{"District":"Gonda","State":"Uttar Pradesh","SexRatio":"921"},
-{"District":"Sitamarhi","State":"Bihar","SexRatio":"899"},
-{"District":"Rae Bareli","State":"Uttar Pradesh","SexRatio":"943"},
-{"District":"Prakasam","State":"Andhra Pradesh","SexRatio":"981"},
-{"District":"Nanded","State":"Maharashtra","SexRatio":"943"},
-{"District":"Durg","State":"Chhattisgarh","SexRatio":"988"},
-{"District":"Siwan","State":"Bihar","SexRatio":"988"},
-{"District":"Nagaur","State":"Rajasthan","SexRatio":"950"},
-{"District":"Thiruvananthapuram","State":"Kerala","SexRatio":"1087"},
-{"District":"Ernakulam","State":"Kerala","SexRatio":"1027"},
-{"District":"Indore","State":"Madhya Pradesh","SexRatio":"928"},
-{"District":"Purnia","State":"Bihar","SexRatio":"921"},
-{"District":"Barabanki","State":"Uttar Pradesh","SexRatio":"910"},
-{"District":"Ballia","State":"Uttar Pradesh","SexRatio":"937"},
-{"District":"Pratapgarh","State":"Uttar Pradesh","SexRatio":"998"},
-{"District":"Thrissur","State":"Kerala","SexRatio":"1108"},
-{"District":"Banaskantha","State":"Gujarat","SexRatio":"938"},
-{"District":"Unnao","State":"Uttar Pradesh","SexRatio":"907"},
-{"District":"Deoria","State":"Uttar Pradesh","SexRatio":"1017"},
-{"District":"Kozhikode","State":"Kerala","SexRatio":"1098"},
-{"District":"Mumbai City","State":"Maharashtra","SexRatio":"832"},
-{"District":"Tirunelveli","State":"Tamil Nadu","SexRatio":"1023"},
-{"District":"Katihar","State":"Bihar","SexRatio":"919"},
-{"District":"Udaipur","State":"Rajasthan","SexRatio":"958"},
-{"District":"Madurai","State":"Tamil Nadu","SexRatio":"990"},
-{"District":"Bhagalpur","State":"Bihar","SexRatio":"880"},
-{"District":"Medak","State":"Andhra Pradesh","SexRatio":"992"},
-{"District":"Uttar Dinajpur","State":"West Bengal","SexRatio":"939"},
-{"District":"Shahjahanpur","State":"Uttar Pradesh","SexRatio":"872"},
-{"District":"Satara","State":"Maharashtra","SexRatio":"988"},
-{"District":"Mysore","State":"Karnataka","SexRatio":"985"},
-{"District":"Begusarai","State":"Bihar","SexRatio":"895"},
-{"District":"Sri Potti Sriramulu Nellore","State":"Andhra Pradesh","SexRatio":"985"},
-{"District":"Rohtas","State":"Bihar","SexRatio":"918"},
-{"District":"Puruliya","State":"West Bengal","SexRatio":"957"},
-{"District":"Ranchi","State":"Jharkhand","SexRatio":"949"},
-{"District":"Amravati","State":"Maharashtra","SexRatio":"951"},
-{"District":"YSR","State":"Andhra Pradesh","SexRatio":"985"},
-{"District":"Bhavnagar","State":"Gujarat","SexRatio":"933"},
-{"District":"Nalanda","State":"Bihar","SexRatio":"922"},
-{"District":"Nagaon","State":"Assam","SexRatio":"962"},
-{"District":"Sangli","State":"Maharashtra","SexRatio":"966"},
-{"District":"Koch Bihar","State":"West Bengal","SexRatio":"942"},
-{"District":"Araria","State":"Bihar","SexRatio":"921"},
-{"District":"Palakkad","State":"Kerala","SexRatio":"1067"},
-{"District":"Khammam","State":"Andhra Pradesh","SexRatio":"1011"},
-{"District":"Yavatmal","State":"Maharashtra","SexRatio":"952"},
-{"District":"Junagadh","State":"Gujarat","SexRatio":"953"},
-{"District":"Adilabad","State":"Andhra Pradesh","SexRatio":"1001"},
-{"District":"South Delhi","State":"Delhi","SexRatio":"862"},
-{"District":"Bhojpur","State":"Bihar","SexRatio":"907"},
-{"District":"Tiruchirappalli","State":"Tamil Nadu","SexRatio":"1013"},
-{"District":"Srikakulam","State":"Andhra Pradesh","SexRatio":"1015"},
-{"District":"Maharajganj","State":"Uttar Pradesh","SexRatio":"943"},
-{"District":"Dhanbad","State":"Jharkhand","SexRatio":"909"},
-{"District":"Tumkur","State":"Karnataka","SexRatio":"984"},
-{"District":"Sikar","State":"Rajasthan","SexRatio":"947"},
-{"District":"Bilaspur","State":"Chhattisgarh","SexRatio":"971"},
-{"District":"Kollam","State":"Kerala","SexRatio":"1113"},
-{"District":"Raigarh","State":"Maharashtra","SexRatio":"959"},
-{"District":"Fatehpur","State":"Uttar Pradesh","SexRatio":"901"},
-{"District":"Cuttack","State":"Orissa","SexRatio":"940"},
-{"District":"Cuddalore","State":"Tamil Nadu","SexRatio":"987"},
-{"District":"Barmer","State":"Rajasthan","SexRatio":"902"},
-{"District":"Buldana","State":"Maharashtra","SexRatio":"934"},
-{"District":"Bid","State":"Maharashtra","SexRatio":"916"},
-{"District":"Ajmer","State":"Rajasthan","SexRatio":"951"},
-{"District":"Gulbarga","State":"Karnataka","SexRatio":"971"},
-{"District":"Gopalganj","State":"Bihar","SexRatio":"1021"},
-{"District":"Siddharth Nagar","State":"Uttar Pradesh","SexRatio":"976"},
-{"District":"Nizamabad","State":"Andhra Pradesh","SexRatio":"1040"},
-{"District":"Bharatpur","State":"Rajasthan","SexRatio":"880"},
-{"District":"Mathura","State":"Uttar Pradesh","SexRatio":"863"},
-{"District":"West Delhi","State":"Delhi","SexRatio":"875"},
-{"District":"Aurangabad","State":"Bihar","SexRatio":"926"},
-{"District":"Kannur","State":"Kerala","SexRatio":"1136"},
-{"District":"Mayurbhanj","State":"Orissa","SexRatio":"1006"},
-{"District":"Firozabad","State":"Uttar Pradesh","SexRatio":"875"},
-{"District":"Mirzapur","State":"Uttar Pradesh","SexRatio":"903"},
-{"District":"Amritsar","State":"Punjab","SexRatio":"889"},
-{"District":"Tiruppur","State":"Tamil Nadu","SexRatio":"989"},
-{"District":"Faizabad","State":"Uttar Pradesh","SexRatio":"962"},
-{"District":"Tiruvannamalai","State":"Tamil Nadu","SexRatio":"994"},
-{"District":"Basti","State":"Uttar Pradesh","SexRatio":"963"},
-{"District":"Jabalpur","State":"Madhya Pradesh","SexRatio":"929"},
-{"District":"Latur","State":"Maharashtra","SexRatio":"928"},
-{"District":"Bellary","State":"Karnataka","SexRatio":"983"},
-{"District":"Giridih","State":"Jharkhand","SexRatio":"944"},
-{"District":"Sabarkantha","State":"Gujarat","SexRatio":"952"},
-{"District":"Bhilwara","State":"Rajasthan","SexRatio":"973"},
-{"District":"Thanjavur","State":"Tamil Nadu","SexRatio":"1035"},
-{"District":"Ambedkar Nagar","State":"Uttar Pradesh","SexRatio":"978"},
-{"District":"PanchMahal","State":"Gujarat","SexRatio":"949"},
-{"District":"Sagar","State":"Madhya Pradesh","SexRatio":"893"},
-{"District":"Bhopal","State":"Madhya Pradesh","SexRatio":"918"},
-{"District":"Rewa","State":"Madhya Pradesh","SexRatio":"931"},
-{"District":"Bikaner","State":"Rajasthan","SexRatio":"905"},
-{"District":"Surguja","State":"Chhattisgarh","SexRatio":"978"},
-{"District":"Vizianagaram","State":"Andhra Pradesh","SexRatio":"1019"},
-{"District":"Rampur","State":"Uttar Pradesh","SexRatio":"909"},
-{"District":"Baleshwar","State":"Orissa","SexRatio":"957"},
-{"District":"Kheda","State":"Gujarat","SexRatio":"940"},
-{"District":"Gurdaspur","State":"Punjab","SexRatio":"895"},
-{"District":"Purbi Singhbhum","State":"Jharkhand","SexRatio":"949"},
-{"District":"South West Delhi","State":"Delhi","SexRatio":"840"},
-{"District":"Erode","State":"Tamil Nadu","SexRatio":"993"},
-{"District":"Khordha","State":"Orissa","SexRatio":"929"},
-{"District":"North East Delhi","State":"Delhi","SexRatio":"886"},
-{"District":"Supaul","State":"Bihar","SexRatio":"929"},
-{"District":"Satna","State":"Madhya Pradesh","SexRatio":"926"},
-{"District":"Nawada","State":"Bihar","SexRatio":"939"},
-{"District":"Mau","State":"Uttar Pradesh","SexRatio":"979"},
-{"District":"Chandrapur","State":"Maharashtra","SexRatio":"961"},
-{"District":"Jalandhar","State":"Punjab","SexRatio":"915"},
-{"District":"Dhar","State":"Madhya Pradesh","SexRatio":"964"},
-{"District":"Bijapur","State":"Karnataka","SexRatio":"960"},
-{"District":"Jamnagar","State":"Gujarat","SexRatio":"939"},
-{"District":"Dindigul","State":"Tamil Nadu","SexRatio":"998"},
-{"District":"Balrampur","State":"Uttar Pradesh","SexRatio":"928"},
-{"District":"Jhunjhunun","State":"Rajasthan","SexRatio":"950"},
-{"District":"Alappuzha","State":"Kerala","SexRatio":"1100"},
-{"District":"Dohad","State":"Gujarat","SexRatio":"990"},
-{"District":"Sundargarh","State":"Orissa","SexRatio":"973"},
-{"District":"Anand","State":"Gujarat","SexRatio":"925"},
-{"District":"Kachchh","State":"Gujarat","SexRatio":"908"},
-{"District":"Chhindwara","State":"Madhya Pradesh","SexRatio":"964"},
-{"District":"Dakshina Kannada","State":"Karnataka","SexRatio":"1020"},
-{"District":"Bokaro","State":"Jharkhand","SexRatio":"922"},
-{"District":"Dhule","State":"Maharashtra","SexRatio":"946"},
-{"District":"Churu","State":"Rajasthan","SexRatio":"940"},
-{"District":"Pali","State":"Rajasthan","SexRatio":"987"},
-{"District":"Mahesana","State":"Gujarat","SexRatio":"926"},
-{"District":"Banka","State":"Bihar","SexRatio":"907"},
-{"District":"Gwalior","State":"Madhya Pradesh","SexRatio":"864"},
-{"District":"Pilibhit","State":"Uttar Pradesh","SexRatio":"895"},
-{"District":"Firozpur","State":"Punjab","SexRatio":"893"},
-{"District":"Madhepura","State":"Bihar","SexRatio":"911"},
-{"District":"Jhansi","State":"Uttar Pradesh","SexRatio":"890"},
-{"District":"Ujjain","State":"Madhya Pradesh","SexRatio":"955"},
-{"District":"Kottayam","State":"Kerala","SexRatio":"1039"},
-{"District":"Ganganagar","State":"Rajasthan","SexRatio":"887"},
-{"District":"Morena","State":"Madhya Pradesh","SexRatio":"840"},
-{"District":"Jalna","State":"Maharashtra","SexRatio":"937"},
-{"District":"Chandauli","State":"Uttar Pradesh","SexRatio":"918"},
-{"District":"Kota","State":"Rajasthan","SexRatio":"911"},
-{"District":"Dhubri","State":"Assam","SexRatio":"953"},
-{"District":"Davanagere","State":"Karnataka","SexRatio":"972"},
-{"District":"Virudhunagar","State":"Tamil Nadu","SexRatio":"1007"},
-{"District":"Palamu","State":"Jharkhand","SexRatio":"928"},
-{"District":"Raichur","State":"Karnataka","SexRatio":"1000"},
-{"District":"Sonitpur","State":"Assam","SexRatio":"956"},
-{"District":"Saharsa","State":"Bihar","SexRatio":"906"},
-{"District":"Patiala","State":"Punjab","SexRatio":"891"},
-{"District":"Haridwar","State":"Uttarakhand","SexRatio":"880"},
-{"District":"Bagalkot","State":"Karnataka","SexRatio":"989"},
-{"District":"Farrukhabad","State":"Uttar Pradesh","SexRatio":"874"},
-{"District":"Krishnagiri","State":"Tamil Nadu","SexRatio":"958"},
-{"District":"West Nimar","State":"Madhya Pradesh","SexRatio":"965"},
-{"District":"Kanniyakumari","State":"Tamil Nadu","SexRatio":"1019"},
-{"District":"Mainpuri","State":"Uttar Pradesh","SexRatio":"881"},
-{"District":"Sonbhadra","State":"Uttar Pradesh","SexRatio":"918"},
-{"District":"Dharwad","State":"Karnataka","SexRatio":"971"},
-{"District":"Darjiling","State":"West Bengal","SexRatio":"970"},
-{"District":"Jyotiba Phule Nagar","State":"Uttar Pradesh","SexRatio":"910"},
-{"District":"Parbhani","State":"Maharashtra","SexRatio":"947"},
-{"District":"Jalor","State":"Rajasthan","SexRatio":"952"},
-{"District":"Jajapur","State":"Orissa","SexRatio":"973"},
-{"District":"Akola","State":"Maharashtra","SexRatio":"946"},
-{"District":"Faridabad","State":"Haryana","SexRatio":"873"},
-{"District":"Mandya","State":"Karnataka","SexRatio":"995"},
-{"District":"Kendujhar","State":"Orissa","SexRatio":"988"},
-{"District":"Banda","State":"Uttar Pradesh","SexRatio":"863"},
-{"District":"Banswara","State":"Rajasthan","SexRatio":"980"},
-{"District":"Ramabai Nagar","State":"Uttar Pradesh","SexRatio":"865"},
-{"District":"Hassan","State":"Karnataka","SexRatio":"1010"},
-{"District":"Hanumangarh","State":"Rajasthan","SexRatio":"906"},
-{"District":"Etah","State":"Uttar Pradesh","SexRatio":"873"},
-{"District":"Chhattarpur","State":"Madhya Pradesh","SexRatio":"883"},
-{"District":"Jamui","State":"Bihar","SexRatio":"922"},
-{"District":"Surendranagar","State":"Gujarat","SexRatio":"930"},
-{"District":"Shimoga","State":"Karnataka","SexRatio":"998"},
-{"District":"Thoothukkudi","State":"Tamil Nadu","SexRatio":"1023"},
-{"District":"Hisar","State":"Haryana","SexRatio":"872"},
-{"District":"Cachar","State":"Assam","SexRatio":"959"},
-{"District":"Hazaribagh","State":"Jharkhand","SexRatio":"947"},
-{"District":"Namakkal","State":"Tamil Nadu","SexRatio":"986"},
-{"District":"Shivpuri","State":"Madhya Pradesh","SexRatio":"877"},
-{"District":"West Tripura","State":"Tripura","SexRatio":"962"},
-{"District":"Sant Kabir Nagar","State":"Uttar Pradesh","SexRatio":"972"},
-{"District":"East Delhi","State":"Delhi","SexRatio":"884"},
-{"District":"Buxar","State":"Bihar","SexRatio":"922"},
-{"District":"Valsad","State":"Gujarat","SexRatio":"922"},
-{"District":"Bidar","State":"Karnataka","SexRatio":"956"},
-{"District":"Bhind","State":"Madhya Pradesh","SexRatio":"837"},
-{"District":"Balaghat","State":"Madhya Pradesh","SexRatio":"1021"},
-{"District":"Puri","State":"Orissa","SexRatio":"963"},
-{"District":"Dehradun","State":"Uttarakhand","SexRatio":"902"},
-{"District":"Barpeta","State":"Assam","SexRatio":"953"},
-{"District":"Kishanganj","State":"Bihar","SexRatio":"950"},
-{"District":"Jalaun","State":"Uttar Pradesh","SexRatio":"865"},
-{"District":"Dakshin Dinajpur","State":"West Bengal","SexRatio":"956"},
-{"District":"Khagaria","State":"Bihar","SexRatio":"886"},
-{"District":"Chitradurga","State":"Karnataka","SexRatio":"974"},
-{"District":"Osmanabad","State":"Maharashtra","SexRatio":"924"},
-{"District":"Kannauj","State":"Uttar Pradesh","SexRatio":"879"},
-{"District":"Sangrur","State":"Punjab","SexRatio":"885"},
-{"District":"Balangir","State":"Orissa","SexRatio":"987"},
-{"District":"Udham Singh Nagar","State":"Uttarakhand","SexRatio":"920"},
-{"District":"Nandurbar","State":"Maharashtra","SexRatio":"978"},
-{"District":"Gautam Buddha Nagar","State":"Uttar Pradesh","SexRatio":"851"},
-{"District":"Bhiwani","State":"Haryana","SexRatio":"886"},
-{"District":"Dausa","State":"Rajasthan","SexRatio":"905"},
-{"District":"Kaimur","State":"Bihar","SexRatio":"920"},
-{"District":"Janjgir Champa","State":"Chhattisgarh","SexRatio":"986"},
-{"District":"Pudukkottai","State":"Tamil Nadu","SexRatio":"1015"},
-{"District":"Nagapattinam","State":"Tamil Nadu","SexRatio":"1025"},
-{"District":"Ratnagiri","State":"Maharashtra","SexRatio":"1122"},
-{"District":"Kaushambi","State":"Uttar Pradesh","SexRatio":"908"},
-{"District":"Haveri","State":"Karnataka","SexRatio":"950"},
-{"District":"Hoshiarpur","State":"Punjab","SexRatio":"961"},
-{"District":"Etawah","State":"Uttar Pradesh","SexRatio":"870"},
-{"District":"Sant Ravidas Nagar","State":"Uttar Pradesh","SexRatio":"955"},
-{"District":"Kalahandi","State":"Orissa","SexRatio":"1003"},
-{"District":"Betul","State":"Madhya Pradesh","SexRatio":"971"},
-{"District":"Mahamaya Nagar","State":"Uttar Pradesh","SexRatio":"871"},
-{"District":"Dewas","State":"Madhya Pradesh","SexRatio":"942"},
-{"District":"Bharuch","State":"Gujarat","SexRatio":"925"},
-{"District":"Rajgarh","State":"Madhya Pradesh","SexRatio":"956"},
-{"District":"Chittaurgarh","State":"Rajasthan","SexRatio":"972"},
-{"District":"Rajnandgaon","State":"Chhattisgarh","SexRatio":"1015"},
-{"District":"Kolar","State":"Karnataka","SexRatio":"979"},
-{"District":"Jammu","State":"Jammu and Kashmir","SexRatio":"880"},
-{"District":"Kamrup","State":"Assam","SexRatio":"949"},
-{"District":"Gurgaon","State":"Haryana","SexRatio":"854"},
-{"District":"Amreli","State":"Gujarat","SexRatio":"964"},
-{"District":"Shajapur","State":"Madhya Pradesh","SexRatio":"938"},
-{"District":"Kangra","State":"Himachal Pradesh","SexRatio":"1012"},
-{"District":"Dharmapuri","State":"Tamil Nadu","SexRatio":"946"},
-{"District":"Bhadrak","State":"Orissa","SexRatio":"981"},
-{"District":"Karnal","State":"Haryana","SexRatio":"887"},
-{"District":"Pashchimi Singhbhum","State":"Jharkhand","SexRatio":"1005"},
-{"District":"Raigarh","State":"Chhattisgarh","SexRatio":"991"},
-{"District":"Deoghar","State":"Jharkhand","SexRatio":"925"},
-{"District":"Bargarh","State":"Orissa","SexRatio":"977"},
-{"District":"Vidisha","State":"Madhya Pradesh","SexRatio":"896"},
-{"District":"Karauli","State":"Rajasthan","SexRatio":"861"},
-{"District":"Ratlam","State":"Madhya Pradesh","SexRatio":"971"},
-{"District":"Sonipat","State":"Haryana","SexRatio":"856"},
-{"District":"Tikamgarh","State":"Madhya Pradesh","SexRatio":"901"},
-{"District":"Kendrapara","State":"Orissa","SexRatio":"1007"},
-{"District":"Uttara Kannada","State":"Karnataka","SexRatio":"979"},
-{"District":"Kanshiram Nagar","State":"Uttar Pradesh","SexRatio":"880"},
-{"District":"Tonk","State":"Rajasthan","SexRatio":"952"},
-{"District":"Bastar","State":"Chhattisgarh","SexRatio":"1023"},
-{"District":"Jhalawar","State":"Rajasthan","SexRatio":"946"},
-{"District":"Gandhinagar","State":"Gujarat","SexRatio":"923"},
-{"District":"Koppal","State":"Karnataka","SexRatio":"986"},
-{"District":"Dungarpur","State":"Rajasthan","SexRatio":"994"},
-{"District":"Bathinda","State":"Punjab","SexRatio":"868"},
-{"District":"Barwani","State":"Madhya Pradesh","SexRatio":"982"},
-{"District":"Koraput","State":"Orissa","SexRatio":"1032"},
-{"District":"Auraiya","State":"Uttar Pradesh","SexRatio":"864"},
-{"District":"Seoni","State":"Madhya Pradesh","SexRatio":"982"},
-{"District":"Munger","State":"Bihar","SexRatio":"876"},
-{"District":"Ramanathapuram","State":"Tamil Nadu","SexRatio":"983"},
-{"District":"Patan","State":"Gujarat","SexRatio":"935"},
-{"District":"Mandsaur","State":"Madhya Pradesh","SexRatio":"963"},
-{"District":"Sivaganga","State":"Tamil Nadu","SexRatio":"1003"},
-{"District":"Sawai Madhopur","State":"Rajasthan","SexRatio":"897"},
-{"District":"Jind","State":"Haryana","SexRatio":"871"},
-{"District":"Raisen","State":"Madhya Pradesh","SexRatio":"901"},
-{"District":"Navsari","State":"Gujarat","SexRatio":"961"},
-{"District":"Tinsukia","State":"Assam","SexRatio":"952"},
-{"District":"Dibrugarh","State":"Assam","SexRatio":"961"},
-{"District":"Garhwa","State":"Jharkhand","SexRatio":"935"},
-{"District":"Gondiya","State":"Maharashtra","SexRatio":"999"},
-{"District":"Dumka","State":"Jharkhand","SexRatio":"977"},
-{"District":"Godda","State":"Jharkhand","SexRatio":"938"},
-{"District":"Sehore","State":"Madhya Pradesh","SexRatio":"918"},
-{"District":"East Nimar","State":"Madhya Pradesh","SexRatio":"943"},
-{"District":"Kasaragod","State":"Kerala","SexRatio":"1080"},
-{"District":"Baghpat","State":"Uttar Pradesh","SexRatio":"861"},
-{"District":"Wardha","State":"Maharashtra","SexRatio":"946"},
-{"District":"Sirsa","State":"Haryana","SexRatio":"897"},
-{"District":"Katni","State":"Madhya Pradesh","SexRatio":"952"},
-{"District":"Anugul","State":"Orissa","SexRatio":"943"},
-{"District":"Thiruvarur","State":"Tamil Nadu","SexRatio":"1017"},
-{"District":"Damoh","State":"Madhya Pradesh","SexRatio":"910"},
-{"District":"Chikkaballapura","State":"Karnataka","SexRatio":"972"},
-{"District":"Kamrup Metropolitan","State":"Assam","SexRatio":"936"},
-{"District":"Theni","State":"Tamil Nadu","SexRatio":"991"},
-{"District":"Guna","State":"Madhya Pradesh","SexRatio":"912"},
-{"District":"Hoshangabad","State":"Madhya Pradesh","SexRatio":"914"},
-{"District":"Srinagar","State":"Jammu and Kashmir","SexRatio":"900"},
-{"District":"Karimganj","State":"Assam","SexRatio":"963"},
-{"District":"Baran","State":"Rajasthan","SexRatio":"929"},
-{"District":"Lalitpur","State":"Uttar Pradesh","SexRatio":"906"},
-{"District":"Nabarangapur","State":"Orissa","SexRatio":"1019"},
-{"District":"Yamunanagar","State":"Haryana","SexRatio":"877"},
-{"District":"Korba","State":"Chhattisgarh","SexRatio":"969"},
-{"District":"Dhaulpur","State":"Rajasthan","SexRatio":"846"},
-{"District":"Panipat","State":"Haryana","SexRatio":"864"},
-{"District":"Bhandara","State":"Maharashtra","SexRatio":"982"},
-{"District":"Pathanamthitta","State":"Kerala","SexRatio":"1132"},
-{"District":"Washim","State":"Maharashtra","SexRatio":"930"},
-{"District":"Dhenkanal","State":"Orissa","SexRatio":"947"},
-{"District":"Singrauli","State":"Madhya Pradesh","SexRatio":"920"},
-{"District":"Udupi","State":"Karnataka","SexRatio":"1094"},
-{"District":"Hingoli","State":"Maharashtra","SexRatio":"942"},
-{"District":"Yadgir","State":"Karnataka","SexRatio":"989"},
-{"District":"Rajsamand","State":"Rajasthan","SexRatio":"990"},
-{"District":"Sivasagar","State":"Assam","SexRatio":"954"},
-{"District":"Sahibganj","State":"Jharkhand","SexRatio":"952"},
-{"District":"Chikmagalur","State":"Karnataka","SexRatio":"1008"},
-{"District":"Jagatsinghapur","State":"Orissa","SexRatio":"968"},
-{"District":"Ambala","State":"Haryana","SexRatio":"885"},
-{"District":"Sidhi","State":"Madhya Pradesh","SexRatio":"957"},
-{"District":"Jehanabad","State":"Bihar","SexRatio":"922"},
-{"District":"Tarn Taran","State":"Punjab","SexRatio":"900"},
-{"District":"Shrawasti","State":"Uttar Pradesh","SexRatio":"881"},
-{"District":"Bundi","State":"Rajasthan","SexRatio":"925"},
-{"District":"Idukki","State":"Kerala","SexRatio":"1006"},
-{"District":"Hamirpur","State":"Uttar Pradesh","SexRatio":"861"},
-{"District":"Jorhat","State":"Assam","SexRatio":"962"},
-{"District":"Narsimhapur","State":"Madhya Pradesh","SexRatio":"920"},
-{"District":"Mewat","State":"Haryana","SexRatio":"907"},
-{"District":"Ramanagara","State":"Karnataka","SexRatio":"976"},
-{"District":"Anantnag","State":"Jammu and Kashmir","SexRatio":"927"},
-{"District":"Kaithal","State":"Haryana","SexRatio":"881"},
-{"District":"Gadchiroli","State":"Maharashtra","SexRatio":"982"},
-{"District":"Golaghat","State":"Assam","SexRatio":"964"},
-{"District":"Shahdol","State":"Madhya Pradesh","SexRatio":"974"},
-{"District":"Saraikela Kharsawan","State":"Jharkhand","SexRatio":"956"},
-{"District":"Gadag","State":"Karnataka","SexRatio":"982"},
-{"District":"Karur","State":"Tamil Nadu","SexRatio":"1015"},
-{"District":"Rohtak","State":"Haryana","SexRatio":"867"},
-{"District":"Chandigarh","State":"Chandigarh","SexRatio":"818"},
-{"District":"Mandla","State":"Madhya Pradesh","SexRatio":"1008"},
-{"District":"Chatra","State":"Jharkhand","SexRatio":"953"},
-{"District":"Palwal","State":"Haryana","SexRatio":"880"},
-{"District":"Lakhimpur","State":"Assam","SexRatio":"968"},
-{"District":"Sambalpur","State":"Orissa","SexRatio":"976"},
-{"District":"Sirohi","State":"Rajasthan","SexRatio":"940"},
-{"District":"Mahasamund","State":"Chhattisgarh","SexRatio":"1017"},
-{"District":"Gumla","State":"Jharkhand","SexRatio":"993"},
-{"District":"Jhabua","State":"Madhya Pradesh","SexRatio":"990"},
-{"District":"Chamarajanagar","State":"Karnataka","SexRatio":"993"},
-{"District":"Panna","State":"Madhya Pradesh","SexRatio":"905"},
-{"District":"Goalpara","State":"Assam","SexRatio":"964"},
-{"District":"Baramula","State":"Jammu and Kashmir","SexRatio":"885"},
-{"District":"Lakhisarai","State":"Bihar","SexRatio":"902"},
-{"District":"Mandi","State":"Himachal Pradesh","SexRatio":"1007"},
-{"District":"Moga","State":"Punjab","SexRatio":"893"},
-{"District":"Mohali","State":"Punjab","SexRatio":"879"},
-{"District":"Chitrakoot","State":"Uttar Pradesh","SexRatio":"879"},
-{"District":"Bangalore Rural","State":"Karnataka","SexRatio":"946"},
-{"District":"Rayagada","State":"Orissa","SexRatio":"1051"},
-{"District":"Kurukshetra","State":"Haryana","SexRatio":"888"},
-{"District":"Nayagarh","State":"Orissa","SexRatio":"915"},
-{"District":"Jhajjar","State":"Haryana","SexRatio":"862"},
-{"District":"Morigaon","State":"Assam","SexRatio":"967"},
-{"District":"Karbi Anglong","State":"Assam","SexRatio":"951"},
-{"District":"Nainital","State":"Uttarakhand","SexRatio":"934"},
-{"District":"Puducherry","State":"Puducherry","SexRatio":"1029"},
-{"District":"Baksa","State":"Assam","SexRatio":"974"},
-{"District":"Ramgarh","State":"Jharkhand","SexRatio":"921"},
-{"District":"Fatehabad","State":"Haryana","SexRatio":"902"},
-{"District":"Darrang","State":"Assam","SexRatio":"954"},
-{"District":"Mahendragarh","State":"Haryana","SexRatio":"895"},
-{"District":"Muktsar","State":"Punjab","SexRatio":"896"},
-{"District":"Pakur","State":"Jharkhand","SexRatio":"989"},
-{"District":"Rewari","State":"Haryana","SexRatio":"898"},
-{"District":"North Delhi","State":"Delhi","SexRatio":"869"},
-{"District":"Kokrajhar","State":"Assam","SexRatio":"959"},
-{"District":"South Tripura","State":"Tripura","SexRatio":"957"},
-{"District":"Mahoba","State":"Uttar Pradesh","SexRatio":"878"},
-{"District":"Kupwara","State":"Jammu and Kashmir","SexRatio":"835"},
-{"District":"Pratapgarh","State":"Rajasthan","SexRatio":"983"},
-{"District":"Jashpur","State":"Chhattisgarh","SexRatio":"1005"},
-{"District":"Sindhudurg","State":"Maharashtra","SexRatio":"1036"},
-{"District":"Ashoknagar","State":"Madhya Pradesh","SexRatio":"904"},
-{"District":"Udalguri","State":"Assam","SexRatio":"973"},
-{"District":"Neemuch","State":"Madhya Pradesh","SexRatio":"954"},
-{"District":"East Khasi Hills","State":"Meghalaya","SexRatio":"1011"},
-{"District":"Kabirdham","State":"Chhattisgarh","SexRatio":"996"},
-{"District":"North Goa","State":"Goa","SexRatio":"963"},
-{"District":"Wayanad","State":"Kerala","SexRatio":"1035"},
-{"District":"Kapurthala","State":"Punjab","SexRatio":"912"},
-{"District":"Shimla","State":"Himachal Pradesh","SexRatio":"915"},
-{"District":"Tapi","State":"Gujarat","SexRatio":"1007"},
-{"District":"Dhamtari","State":"Chhattisgarh","SexRatio":"1010"},
-{"District":"Jamtara","State":"Jharkhand","SexRatio":"954"},
-{"District":"Datia","State":"Madhya Pradesh","SexRatio":"873"},
-{"District":"Nalbari","State":"Assam","SexRatio":"949"},
-{"District":"Mansa","State":"Punjab","SexRatio":"883"},
-{"District":"Burhanpur","State":"Madhya Pradesh","SexRatio":"951"},
-{"District":"Ariyalur","State":"Tamil Nadu","SexRatio":"1015"},
-{"District":"Badgam","State":"Jammu and Kashmir","SexRatio":"894"},
-{"District":"Anuppur","State":"Madhya Pradesh","SexRatio":"976"},
-{"District":"Kanker","State":"Chhattisgarh","SexRatio":"1006"},
-{"District":"Bongaigaon","State":"Assam","SexRatio":"966"},
-{"District":"The Nilgiris","State":"Tamil Nadu","SexRatio":"1042"},
-{"District":"Kandhamal","State":"Orissa","SexRatio":"1037"},
-{"District":"Alirajpur","State":"Madhya Pradesh","SexRatio":"1011"},
-{"District":"Latehar","State":"Jharkhand","SexRatio":"967"},
-{"District":"Kodarma","State":"Jharkhand","SexRatio":"950"},
-{"District":"Dindori","State":"Madhya Pradesh","SexRatio":"1002"},
-{"District":"Arwal","State":"Bihar","SexRatio":"928"},
-{"District":"North Tripura","State":"Tripura","SexRatio":"967"},
-{"District":"Sheopur","State":"Madhya Pradesh","SexRatio":"901"},
-{"District":"Pauri Garhwal","State":"Uttarakhand","SexRatio":"1103"},
-{"District":"Dhemaji","State":"Assam","SexRatio":"953"},
-{"District":"Rupnagar","State":"Punjab","SexRatio":"915"},
-{"District":"Jaisalmer","State":"Rajasthan","SexRatio":"852"},
-{"District":"Hailakandi","State":"Assam","SexRatio":"951"},
-{"District":"Korea","State":"Chhattisgarh","SexRatio":"968"},
-{"District":"Sheohar","State":"Bihar","SexRatio":"893"},
-{"District":"Umaria","State":"Madhya Pradesh","SexRatio":"950"},
-{"District":"West Garo Hills","State":"Meghalaya","SexRatio":"984"},
-{"District":"Rajouri","State":"Jammu and Kashmir","SexRatio":"860"},
-{"District":"South Goa","State":"Goa","SexRatio":"986"},
-{"District":"Sheikhpura","State":"Bihar","SexRatio":"930"},
-{"District":"Almora","State":"Uttarakhand","SexRatio":"1139"},
-{"District":"Tehri Garhwal","State":"Uttarakhand","SexRatio":"1077"},
-{"District":"Faridkot","State":"Punjab","SexRatio":"890"},
-{"District":"Kathua","State":"Jammu and Kashmir","SexRatio":"890"},
-{"District":"Malkangiri","State":"Orissa","SexRatio":"1020"},
-{"District":"Shahid Bhagat Singh Nagar","State":"Punjab","SexRatio":"954"},
-{"District":"Nuapada","State":"Orissa","SexRatio":"1021"},
-{"District":"Subarnapur","State":"Orissa","SexRatio":"960"},
-{"District":"Fatehgarh Sahib","State":"Punjab","SexRatio":"871"},
-{"District":"Simdega","State":"Jharkhand","SexRatio":"997"},
-{"District":"Barnala","State":"Punjab","SexRatio":"876"},
-{"District":"Narmada","State":"Gujarat","SexRatio":"961"},
-{"District":"Porbandar","State":"Gujarat","SexRatio":"950"},
-{"District":"Central Delhi","State":"Delhi","SexRatio":"892"},
-{"District":"Solan","State":"Himachal Pradesh","SexRatio":"880"},
-{"District":"Jharsuguda","State":"Orissa","SexRatio":"953"},
-{"District":"Gajapati","State":"Orissa","SexRatio":"1043"},
-{"District":"Harda","State":"Madhya Pradesh","SexRatio":"935"},
-{"District":"Perambalur","State":"Tamil Nadu","SexRatio":"1003"},
-{"District":"Panchkula","State":"Haryana","SexRatio":"873"},
-{"District":"Pulwama","State":"Jammu and Kashmir","SexRatio":"912"},
-{"District":"Udhampur","State":"Jammu and Kashmir","SexRatio":"870"},
-{"District":"Kodagu","State":"Karnataka","SexRatio":"1019"},
-{"District":"Dantewada","State":"Chhattisgarh","SexRatio":"1020"},
-{"District":"Khunti","State":"Jharkhand","SexRatio":"997"},
-{"District":"Sirmaur","State":"Himachal Pradesh","SexRatio":"918"},
-{"District":"Una","State":"Himachal Pradesh","SexRatio":"976"},
-{"District":"Chamba","State":"Himachal Pradesh","SexRatio":"986"},
-{"District":"Imphal West","State":"Manipur","SexRatio":"1031"},
-{"District":"Pithoragarh","State":"Uttarakhand","SexRatio":"1020"},
-{"District":"Chirang","State":"Assam","SexRatio":"969"},
-{"District":"Senapati","State":"Manipur","SexRatio":"937"},
-{"District":"Punch","State":"Jammu and Kashmir","SexRatio":"893"},
-{"District":"Lohardaga","State":"Jharkhand","SexRatio":"985"},
-{"District":"Imphal East","State":"Manipur","SexRatio":"1017"},
-{"District":"Hamirpur","State":"Himachal Pradesh","SexRatio":"1095"},
-{"District":"Baudh","State":"Orissa","SexRatio":"991"},
-{"District":"Kullu","State":"Himachal Pradesh","SexRatio":"942"},
-{"District":"Kulgam","State":"Jammu and Kashmir","SexRatio":"951"},
-{"District":"Thoubal","State":"Manipur","SexRatio":"1002"},
-{"District":"Doda","State":"Jammu and Kashmir","SexRatio":"919"},
-{"District":"Aizawl","State":"Mizoram","SexRatio":"1009"},
-{"District":"Jaintia Hills","State":"Meghalaya","SexRatio":"1013"},
-{"District":"Bandipora","State":"Jammu and Kashmir","SexRatio":"889"},
-{"District":"Chamoli","State":"Uttarakhand","SexRatio":"1019"},
-{"District":"West Khasi Hills","State":"Meghalaya","SexRatio":"980"},
-{"District":"Bilaspur","State":"Himachal Pradesh","SexRatio":"981"},
-{"District":"Dimapur","State":"Nagaland","SexRatio":"919"},
-{"District":"Dhalai","State":"Tripura","SexRatio":"944"},
-{"District":"Dadra and Nagar Haveli","State":"Dadra and Nagar Haveli","SexRatio":"774"},
-{"District":"Uttarkashi","State":"Uttarakhand","SexRatio":"958"},
-{"District":"Samba","State":"Jammu and Kashmir","SexRatio":"886"},
-{"District":"East Garo Hills","State":"Meghalaya","SexRatio":"972"},
-{"District":"Reasi","State":"Jammu and Kashmir","SexRatio":"890"},
-{"District":"Debagarh","State":"Orissa","SexRatio":"975"},
-{"District":"Ganderbal","State":"Jammu and Kashmir","SexRatio":"874"},
-{"District":"Ramban","State":"Jammu and Kashmir","SexRatio":"902"},
-{"District":"East Sikkim","State":"Sikkim","SexRatio":"873"},
-{"District":"Churachandpur","State":"Manipur","SexRatio":"975"},
-{"District":"Kohima","State":"Nagaland","SexRatio":"928"},
-{"District":"Shupiyan","State":"Jammu and Kashmir","SexRatio":"951"},
-{"District":"Bageshwar","State":"Uttarakhand","SexRatio":"1090"},
-{"District":"Champawat","State":"Uttarakhand","SexRatio":"980"},
-{"District":"Ri Bhoi","State":"Meghalaya","SexRatio":"953"},
-{"District":"Bijapur","State":"Chhattisgarh","SexRatio":"984"},
-{"District":"Mon","State":"Nagaland","SexRatio":"899"},
-{"District":"Rudraprayag","State":"Uttarakhand","SexRatio":"1114"},
-{"District":"South Andaman","State":"Andaman And Nicobar Islands","SexRatio":"871"},
-{"District":"Bishnupur","State":"Manipur","SexRatio":"999"},
-{"District":"Kishtwar","State":"Jammu and Kashmir","SexRatio":"920"},
-{"District":"The Dangs","State":"Gujarat","SexRatio":"1006"},
-{"District":"Dima Hasao","State":"Assam","SexRatio":"932"},
-{"District":"Karaikal","State":"Puducherry","SexRatio":"1047"},
-{"District":"Tuensang","State":"Nagaland","SexRatio":"929"},
-{"District":"Mokokchung","State":"Nagaland","SexRatio":"925"},
-{"District":"Daman","State":"Daman and Diu","SexRatio":"534"},
-{"District":"Ukhrul","State":"Manipur","SexRatio":"943"},
-{"District":"Papumpare","State":"Arunachal Pradesh","SexRatio":"980"},
-{"District":"Wokha","State":"Nagaland","SexRatio":"968"},
-{"District":"Phek","State":"Nagaland","SexRatio":"951"},
-{"District":"Lunglei","State":"Mizoram","SexRatio":"947"},
-{"District":"Changlang","State":"Arunachal Pradesh","SexRatio":"926"},
-{"District":"South Sikkim","State":"Sikkim","SexRatio":"915"},
-{"District":"Lohit","State":"Arunachal Pradesh","SexRatio":"912"},
-{"District":"Chandel","State":"Manipur","SexRatio":"933"},
-{"District":"South Garo Hills","State":"Meghalaya","SexRatio":"945"},
-{"District":"New Delhi","State":"Delhi","SexRatio":"822"},
-{"District":"Kargil","State":"Jammu and Kashmir","SexRatio":"810"},
-{"District":"Zunheboto","State":"Nagaland","SexRatio":"976"},
-{"District":"Tamenglong","State":"Manipur","SexRatio":"943"},
-{"District":"Narayanpur","State":"Chhattisgarh","SexRatio":"994"},
-{"District":"West Sikkim","State":"Sikkim","SexRatio":"942"},
-{"District":"Leh","State":"Jammu and Kashmir","SexRatio":"690"},
-{"District":"Champhai","State":"Mizoram","SexRatio":"984"},
-{"District":"Lawngtlai","State":"Mizoram","SexRatio":"945"},
-{"District":"West Siang","State":"Arunachal Pradesh","SexRatio":"930"},
-{"District":"Tirap","State":"Arunachal Pradesh","SexRatio":"944"},
-{"District":"North And Middle Andaman","State":"Andaman And Nicobar Islands","SexRatio":"925"},
-{"District":"East Siang","State":"Arunachal Pradesh","SexRatio":"980"},
-{"District":"Peren","State":"Nagaland","SexRatio":"915"},
-{"District":"Kurung Kumey","State":"Arunachal Pradesh","SexRatio":"1032"},
-{"District":"Mamit","State":"Mizoram","SexRatio":"927"},
-{"District":"Kinnaur","State":"Himachal Pradesh","SexRatio":"819"},
-{"District":"Kolasib","State":"Mizoram","SexRatio":"956"},
-{"District":"West Kameng","State":"Arunachal Pradesh","SexRatio":"819"},
-{"District":"Upper Subansiri","State":"Arunachal Pradesh","SexRatio":"998"},
-{"District":"Lower Subansiri","State":"Arunachal Pradesh","SexRatio":"984"},
-{"District":"East Kameng","State":"Arunachal Pradesh","SexRatio":"1029"},
-{"District":"Kiphire","State":"Nagaland","SexRatio":"956"},
-{"District":"Serchhip","State":"Mizoram","SexRatio":"977"},
-{"District":"Lakshadweep","State":"Lakshadweep","SexRatio":"946"},
-{"District":"Saiha","State":"Mizoram","SexRatio":"979"},
-{"District":"Yanam","State":"Puducherry","SexRatio":"1038"},
-{"District":"Lower Dibang Valley","State":"Arunachal Pradesh","SexRatio":"928"},
-{"District":"Diu","State":"Daman and Diu","SexRatio":"1031"},
-{"District":"Longleng","State":"Nagaland","SexRatio":"905"},
-{"District":"Tawang","State":"Arunachal Pradesh","SexRatio":"714"},
-{"District":"North Sikkim","State":"Sikkim","SexRatio":"767"},
-{"District":"Mahe","State":"Puducherry","SexRatio":"1184"},
-{"District":"Nicobars","State":"Andaman And Nicobar Islands","SexRatio":"777"},
-{"District":"Upper Siang","State":"Arunachal Pradesh","SexRatio":"889"},
-{"District":"Lahul and Spiti","State":"Himachal Pradesh","SexRatio":"903"},
-{"District":"Anjaw","State":"Arunachal Pradesh","SexRatio":"839"},
-{"District":"Dibang Valley","State":"Arunachal Pradesh","SexRatio":"813"}
+  {
+    "district": "Thane",
+    "state": "Maharashtra",
+    "data": "886"
+  },
+  {
+    "district": "North Twenty Four Parganas",
+    "state": "West Bengal",
+    "data": "955"
+  },
+  {
+    "district": "Bangalore",
+    "state": "Karnataka",
+    "data": "916"
+  },
+  {
+    "district": "Pune",
+    "state": "Maharashtra",
+    "data": "915"
+  },
+  {
+    "district": "Mumbai Suburban",
+    "state": "Maharashtra",
+    "data": "860"
+  },
+  {
+    "district": "South Twenty Four Parganas",
+    "state": "West Bengal",
+    "data": "956"
+  },
+  {
+    "district": "Barddhaman",
+    "state": "West Bengal",
+    "data": "945"
+  },
+  {
+    "district": "Ahmadabad",
+    "state": "Gujarat",
+    "data": "904"
+  },
+  {
+    "district": "Murshidabad",
+    "state": "West Bengal",
+    "data": "958"
+  },
+  {
+    "district": "Jaipur",
+    "state": "Rajasthan",
+    "data": "910"
+  },
+  {
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "data": "934"
+  },
+  {
+    "district": "Surat",
+    "state": "Gujarat",
+    "data": "787"
+  },
+  {
+    "district": "Allahabad",
+    "state": "Uttar Pradesh",
+    "data": "901"
+  },
+  {
+    "district": "Paschim Medinipur",
+    "state": "West Bengal",
+    "data": "966"
+  },
+  {
+    "district": "Patna",
+    "state": "Bihar",
+    "data": "897"
+  },
+  {
+    "district": "Hugli",
+    "state": "West Bengal",
+    "data": "961"
+  },
+  {
+    "district": "Rangareddy",
+    "state": "Andhra Pradesh",
+    "data": "961"
+  },
+  {
+    "district": "Nadia",
+    "state": "West Bengal",
+    "data": "947"
+  },
+  {
+    "district": "East Godavari",
+    "state": "Andhra Pradesh",
+    "data": "1006"
+  },
+  {
+    "district": "Purbi Champaran",
+    "state": "Bihar",
+    "data": "902"
+  },
+  {
+    "district": "Purba Medinipur",
+    "state": "West Bengal",
+    "data": "938"
+  },
+  {
+    "district": "Guntur",
+    "state": "Andhra Pradesh",
+    "data": "1003"
+  },
+  {
+    "district": "Haora",
+    "state": "West Bengal",
+    "data": "939"
+  },
+  {
+    "district": "Muzaffarpur",
+    "state": "Bihar",
+    "data": "900"
+  },
+  {
+    "district": "Belgaum",
+    "state": "Karnataka",
+    "data": "973"
+  },
+  {
+    "district": "Moradabad",
+    "state": "Uttar Pradesh",
+    "data": "906"
+  },
+  {
+    "district": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "data": "881"
+  },
+  {
+    "district": "Nagpur",
+    "state": "Maharashtra",
+    "data": "951"
+  },
+  {
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "data": "989"
+  },
+  {
+    "district": "Azamgarh",
+    "state": "Uttar Pradesh",
+    "data": "1019"
+  },
+  {
+    "district": "Lucknow",
+    "state": "Uttar Pradesh",
+    "data": "917"
+  },
+  {
+    "district": "Kanpur Nagar",
+    "state": "Uttar Pradesh",
+    "data": "862"
+  },
+  {
+    "district": "Ahmadnagar",
+    "state": "Maharashtra",
+    "data": "939"
+  },
+  {
+    "district": "Krishna",
+    "state": "Andhra Pradesh",
+    "data": "992"
+  },
+  {
+    "district": "Kolkata",
+    "state": "West Bengal",
+    "data": "908"
+  },
+  {
+    "district": "Jaunpur",
+    "state": "Uttar Pradesh",
+    "data": "1024"
+  },
+  {
+    "district": "Madhubani",
+    "state": "Bihar",
+    "data": "926"
+  },
+  {
+    "district": "Sitapur",
+    "state": "Uttar Pradesh",
+    "data": "888"
+  },
+  {
+    "district": "Bareilly",
+    "state": "Uttar Pradesh",
+    "data": "887"
+  },
+  {
+    "district": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "data": "950"
+  },
+  {
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "data": "868"
+  },
+  {
+    "district": "Gaya",
+    "state": "Bihar",
+    "data": "937"
+  },
+  {
+    "district": "Solapur",
+    "state": "Maharashtra",
+    "data": "938"
+  },
+  {
+    "district": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "data": "1006"
+  },
+  {
+    "district": "Samastipur",
+    "state": "Bihar",
+    "data": "911"
+  },
+  {
+    "district": "Jalgaon",
+    "state": "Maharashtra",
+    "data": "925"
+  },
+  {
+    "district": "Chittoor",
+    "state": "Andhra Pradesh",
+    "data": "997"
+  },
+  {
+    "district": "Vadodara",
+    "state": "Gujarat",
+    "data": "934"
+  },
+  {
+    "district": "Muzaffarnagar",
+    "state": "Uttar Pradesh",
+    "data": "889"
+  },
+  {
+    "district": "Malappuram",
+    "state": "Kerala",
+    "data": "1098"
+  },
+  {
+    "district": "Hardoi",
+    "state": "Uttar Pradesh",
+    "data": "868"
+  },
+  {
+    "district": "Anantapur",
+    "state": "Andhra Pradesh",
+    "data": "977"
+  },
+  {
+    "district": "Raipur",
+    "state": "Chhattisgarh",
+    "data": "984"
+  },
+  {
+    "district": "Kurnool",
+    "state": "Andhra Pradesh",
+    "data": "988"
+  },
+  {
+    "district": "Mahbubnagar",
+    "state": "Andhra Pradesh",
+    "data": "977"
+  },
+  {
+    "district": "Kheri",
+    "state": "Uttar Pradesh",
+    "data": "894"
+  },
+  {
+    "district": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "data": "986"
+  },
+  {
+    "district": "Maldah",
+    "state": "West Bengal",
+    "data": "944"
+  },
+  {
+    "district": "Saran",
+    "state": "Bihar",
+    "data": "954"
+  },
+  {
+    "district": "Hyderabad",
+    "state": "Andhra Pradesh",
+    "data": "954"
+  },
+  {
+    "district": "Darbhanga",
+    "state": "Bihar",
+    "data": "911"
+  },
+  {
+    "district": "West Godavari",
+    "state": "Andhra Pradesh",
+    "data": "1004"
+  },
+  {
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "data": "1007"
+  },
+  {
+    "district": "Pashchim Champaran",
+    "state": "Bihar",
+    "data": "909"
+  },
+  {
+    "district": "Kolhapur",
+    "state": "Maharashtra",
+    "data": "957"
+  },
+  {
+    "district": "Jalpaiguri",
+    "state": "West Bengal",
+    "data": "953"
+  },
+  {
+    "district": "Rajkot",
+    "state": "Gujarat",
+    "data": "927"
+  },
+  {
+    "district": "Sultanpur",
+    "state": "Uttar Pradesh",
+    "data": "983"
+  },
+  {
+    "district": "Karimnagar",
+    "state": "Andhra Pradesh",
+    "data": "1008"
+  },
+  {
+    "district": "Thiruvallur",
+    "state": "Tamil Nadu",
+    "data": "987"
+  },
+  {
+    "district": "Aurangabad",
+    "state": "Maharashtra",
+    "data": "923"
+  },
+  {
+    "district": "Jodhpur",
+    "state": "Rajasthan",
+    "data": "916"
+  },
+  {
+    "district": "Bijnor",
+    "state": "Uttar Pradesh",
+    "data": "917"
+  },
+  {
+    "district": "Budaun",
+    "state": "Uttar Pradesh",
+    "data": "871"
+  },
+  {
+    "district": "Varanasi",
+    "state": "Uttar Pradesh",
+    "data": "913"
+  },
+  {
+    "district": "Alwar",
+    "state": "Rajasthan",
+    "data": "895"
+  },
+  {
+    "district": "Aligarh",
+    "state": "Uttar Pradesh",
+    "data": "882"
+  },
+  {
+    "district": "North West Delhi",
+    "state": "Delhi",
+    "data": "865"
+  },
+  {
+    "district": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "data": "952"
+  },
+  {
+    "district": "Bankura",
+    "state": "West Bengal",
+    "data": "957"
+  },
+  {
+    "district": "Kushinagar",
+    "state": "Uttar Pradesh",
+    "data": "961"
+  },
+  {
+    "district": "Ganjam",
+    "state": "Orissa",
+    "data": "983"
+  },
+  {
+    "district": "Warangal",
+    "state": "Andhra Pradesh",
+    "data": "997"
+  },
+  {
+    "district": "Birbhum",
+    "state": "West Bengal",
+    "data": "956"
+  },
+  {
+    "district": "Bulandshahar",
+    "state": "Uttar Pradesh",
+    "data": "896"
+  },
+  {
+    "district": "Ludhiana",
+    "state": "Punjab",
+    "data": "873"
+  },
+  {
+    "district": "Vaishali",
+    "state": "Bihar",
+    "data": "895"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "data": "983"
+  },
+  {
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
+    "data": "892"
+  },
+  {
+    "district": "Salem",
+    "state": "Tamil Nadu",
+    "data": "954"
+  },
+  {
+    "district": "Saharanpur",
+    "state": "Uttar Pradesh",
+    "data": "890"
+  },
+  {
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "data": "987"
+  },
+  {
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "data": "1000"
+  },
+  {
+    "district": "Meerut",
+    "state": "Uttar Pradesh",
+    "data": "886"
+  },
+  {
+    "district": "Gonda",
+    "state": "Uttar Pradesh",
+    "data": "921"
+  },
+  {
+    "district": "Sitamarhi",
+    "state": "Bihar",
+    "data": "899"
+  },
+  {
+    "district": "Rae Bareli",
+    "state": "Uttar Pradesh",
+    "data": "943"
+  },
+  {
+    "district": "Prakasam",
+    "state": "Andhra Pradesh",
+    "data": "981"
+  },
+  {
+    "district": "Nanded",
+    "state": "Maharashtra",
+    "data": "943"
+  },
+  {
+    "district": "Durg",
+    "state": "Chhattisgarh",
+    "data": "988"
+  },
+  {
+    "district": "Siwan",
+    "state": "Bihar",
+    "data": "988"
+  },
+  {
+    "district": "Nagaur",
+    "state": "Rajasthan",
+    "data": "950"
+  },
+  {
+    "district": "Thiruvananthapuram",
+    "state": "Kerala",
+    "data": "1087"
+  },
+  {
+    "district": "Ernakulam",
+    "state": "Kerala",
+    "data": "1027"
+  },
+  {
+    "district": "Indore",
+    "state": "Madhya Pradesh",
+    "data": "928"
+  },
+  {
+    "district": "Purnia",
+    "state": "Bihar",
+    "data": "921"
+  },
+  {
+    "district": "Barabanki",
+    "state": "Uttar Pradesh",
+    "data": "910"
+  },
+  {
+    "district": "Ballia",
+    "state": "Uttar Pradesh",
+    "data": "937"
+  },
+  {
+    "district": "Pratapgarh",
+    "state": "Uttar Pradesh",
+    "data": "998"
+  },
+  {
+    "district": "Thrissur",
+    "state": "Kerala",
+    "data": "1108"
+  },
+  {
+    "district": "Banaskantha",
+    "state": "Gujarat",
+    "data": "938"
+  },
+  {
+    "district": "Unnao",
+    "state": "Uttar Pradesh",
+    "data": "907"
+  },
+  {
+    "district": "Deoria",
+    "state": "Uttar Pradesh",
+    "data": "1017"
+  },
+  {
+    "district": "Kozhikode",
+    "state": "Kerala",
+    "data": "1098"
+  },
+  {
+    "district": "Mumbai City",
+    "state": "Maharashtra",
+    "data": "832"
+  },
+  {
+    "district": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "data": "1023"
+  },
+  {
+    "district": "Katihar",
+    "state": "Bihar",
+    "data": "919"
+  },
+  {
+    "district": "Udaipur",
+    "state": "Rajasthan",
+    "data": "958"
+  },
+  {
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "data": "990"
+  },
+  {
+    "district": "Bhagalpur",
+    "state": "Bihar",
+    "data": "880"
+  },
+  {
+    "district": "Medak",
+    "state": "Andhra Pradesh",
+    "data": "992"
+  },
+  {
+    "district": "Uttar Dinajpur",
+    "state": "West Bengal",
+    "data": "939"
+  },
+  {
+    "district": "Shahjahanpur",
+    "state": "Uttar Pradesh",
+    "data": "872"
+  },
+  {
+    "district": "Satara",
+    "state": "Maharashtra",
+    "data": "988"
+  },
+  {
+    "district": "Mysore",
+    "state": "Karnataka",
+    "data": "985"
+  },
+  {
+    "district": "Begusarai",
+    "state": "Bihar",
+    "data": "895"
+  },
+  {
+    "district": "Sri Potti Sriramulu Nellore",
+    "state": "Andhra Pradesh",
+    "data": "985"
+  },
+  {
+    "district": "Rohtas",
+    "state": "Bihar",
+    "data": "918"
+  },
+  {
+    "district": "Puruliya",
+    "state": "West Bengal",
+    "data": "957"
+  },
+  {
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "data": "949"
+  },
+  {
+    "district": "Amravati",
+    "state": "Maharashtra",
+    "data": "951"
+  },
+  {
+    "district": "YSR",
+    "state": "Andhra Pradesh",
+    "data": "985"
+  },
+  {
+    "district": "Bhavnagar",
+    "state": "Gujarat",
+    "data": "933"
+  },
+  {
+    "district": "Nalanda",
+    "state": "Bihar",
+    "data": "922"
+  },
+  {
+    "district": "Nagaon",
+    "state": "Assam",
+    "data": "962"
+  },
+  {
+    "district": "Sangli",
+    "state": "Maharashtra",
+    "data": "966"
+  },
+  {
+    "district": "Koch Bihar",
+    "state": "West Bengal",
+    "data": "942"
+  },
+  {
+    "district": "Araria",
+    "state": "Bihar",
+    "data": "921"
+  },
+  {
+    "district": "Palakkad",
+    "state": "Kerala",
+    "data": "1067"
+  },
+  {
+    "district": "Khammam",
+    "state": "Andhra Pradesh",
+    "data": "1011"
+  },
+  {
+    "district": "Yavatmal",
+    "state": "Maharashtra",
+    "data": "952"
+  },
+  {
+    "district": "Junagadh",
+    "state": "Gujarat",
+    "data": "953"
+  },
+  {
+    "district": "Adilabad",
+    "state": "Andhra Pradesh",
+    "data": "1001"
+  },
+  {
+    "district": "South Delhi",
+    "state": "Delhi",
+    "data": "862"
+  },
+  {
+    "district": "Bhojpur",
+    "state": "Bihar",
+    "data": "907"
+  },
+  {
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "data": "1013"
+  },
+  {
+    "district": "Srikakulam",
+    "state": "Andhra Pradesh",
+    "data": "1015"
+  },
+  {
+    "district": "Maharajganj",
+    "state": "Uttar Pradesh",
+    "data": "943"
+  },
+  {
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "data": "909"
+  },
+  {
+    "district": "Tumkur",
+    "state": "Karnataka",
+    "data": "984"
+  },
+  {
+    "district": "Sikar",
+    "state": "Rajasthan",
+    "data": "947"
+  },
+  {
+    "district": "Bilaspur",
+    "state": "Chhattisgarh",
+    "data": "971"
+  },
+  {
+    "district": "Kollam",
+    "state": "Kerala",
+    "data": "1113"
+  },
+  {
+    "district": "Raigarh",
+    "state": "Maharashtra",
+    "data": "959"
+  },
+  {
+    "district": "Fatehpur",
+    "state": "Uttar Pradesh",
+    "data": "901"
+  },
+  {
+    "district": "Cuttack",
+    "state": "Orissa",
+    "data": "940"
+  },
+  {
+    "district": "Cuddalore",
+    "state": "Tamil Nadu",
+    "data": "987"
+  },
+  {
+    "district": "Barmer",
+    "state": "Rajasthan",
+    "data": "902"
+  },
+  {
+    "district": "Buldana",
+    "state": "Maharashtra",
+    "data": "934"
+  },
+  {
+    "district": "Bid",
+    "state": "Maharashtra",
+    "data": "916"
+  },
+  {
+    "district": "Ajmer",
+    "state": "Rajasthan",
+    "data": "951"
+  },
+  {
+    "district": "Gulbarga",
+    "state": "Karnataka",
+    "data": "971"
+  },
+  {
+    "district": "Gopalganj",
+    "state": "Bihar",
+    "data": "1021"
+  },
+  {
+    "district": "Siddharth Nagar",
+    "state": "Uttar Pradesh",
+    "data": "976"
+  },
+  {
+    "district": "Nizamabad",
+    "state": "Andhra Pradesh",
+    "data": "1040"
+  },
+  {
+    "district": "Bharatpur",
+    "state": "Rajasthan",
+    "data": "880"
+  },
+  {
+    "district": "Mathura",
+    "state": "Uttar Pradesh",
+    "data": "863"
+  },
+  {
+    "district": "West Delhi",
+    "state": "Delhi",
+    "data": "875"
+  },
+  {
+    "district": "Aurangabad",
+    "state": "Bihar",
+    "data": "926"
+  },
+  {
+    "district": "Kannur",
+    "state": "Kerala",
+    "data": "1136"
+  },
+  {
+    "district": "Mayurbhanj",
+    "state": "Orissa",
+    "data": "1006"
+  },
+  {
+    "district": "Firozabad",
+    "state": "Uttar Pradesh",
+    "data": "875"
+  },
+  {
+    "district": "Mirzapur",
+    "state": "Uttar Pradesh",
+    "data": "903"
+  },
+  {
+    "district": "Amritsar",
+    "state": "Punjab",
+    "data": "889"
+  },
+  {
+    "district": "Tiruppur",
+    "state": "Tamil Nadu",
+    "data": "989"
+  },
+  {
+    "district": "Faizabad",
+    "state": "Uttar Pradesh",
+    "data": "962"
+  },
+  {
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "data": "994"
+  },
+  {
+    "district": "Basti",
+    "state": "Uttar Pradesh",
+    "data": "963"
+  },
+  {
+    "district": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "data": "929"
+  },
+  {
+    "district": "Latur",
+    "state": "Maharashtra",
+    "data": "928"
+  },
+  {
+    "district": "Bellary",
+    "state": "Karnataka",
+    "data": "983"
+  },
+  {
+    "district": "Giridih",
+    "state": "Jharkhand",
+    "data": "944"
+  },
+  {
+    "district": "Sabarkantha",
+    "state": "Gujarat",
+    "data": "952"
+  },
+  {
+    "district": "Bhilwara",
+    "state": "Rajasthan",
+    "data": "973"
+  },
+  {
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "data": "1035"
+  },
+  {
+    "district": "Ambedkar Nagar",
+    "state": "Uttar Pradesh",
+    "data": "978"
+  },
+  {
+    "district": "PanchMahal",
+    "state": "Gujarat",
+    "data": "949"
+  },
+  {
+    "district": "Sagar",
+    "state": "Madhya Pradesh",
+    "data": "893"
+  },
+  {
+    "district": "Bhopal",
+    "state": "Madhya Pradesh",
+    "data": "918"
+  },
+  {
+    "district": "Rewa",
+    "state": "Madhya Pradesh",
+    "data": "931"
+  },
+  {
+    "district": "Bikaner",
+    "state": "Rajasthan",
+    "data": "905"
+  },
+  {
+    "district": "Surguja",
+    "state": "Chhattisgarh",
+    "data": "978"
+  },
+  {
+    "district": "Vizianagaram",
+    "state": "Andhra Pradesh",
+    "data": "1019"
+  },
+  {
+    "district": "Rampur",
+    "state": "Uttar Pradesh",
+    "data": "909"
+  },
+  {
+    "district": "Baleshwar",
+    "state": "Orissa",
+    "data": "957"
+  },
+  {
+    "district": "Kheda",
+    "state": "Gujarat",
+    "data": "940"
+  },
+  {
+    "district": "Gurdaspur",
+    "state": "Punjab",
+    "data": "895"
+  },
+  {
+    "district": "Purbi Singhbhum",
+    "state": "Jharkhand",
+    "data": "949"
+  },
+  {
+    "district": "South West Delhi",
+    "state": "Delhi",
+    "data": "840"
+  },
+  {
+    "district": "Erode",
+    "state": "Tamil Nadu",
+    "data": "993"
+  },
+  {
+    "district": "Khordha",
+    "state": "Orissa",
+    "data": "929"
+  },
+  {
+    "district": "North East Delhi",
+    "state": "Delhi",
+    "data": "886"
+  },
+  {
+    "district": "Supaul",
+    "state": "Bihar",
+    "data": "929"
+  },
+  {
+    "district": "Satna",
+    "state": "Madhya Pradesh",
+    "data": "926"
+  },
+  {
+    "district": "Nawada",
+    "state": "Bihar",
+    "data": "939"
+  },
+  {
+    "district": "Mau",
+    "state": "Uttar Pradesh",
+    "data": "979"
+  },
+  {
+    "district": "Chandrapur",
+    "state": "Maharashtra",
+    "data": "961"
+  },
+  {
+    "district": "Jalandhar",
+    "state": "Punjab",
+    "data": "915"
+  },
+  {
+    "district": "Dhar",
+    "state": "Madhya Pradesh",
+    "data": "964"
+  },
+  {
+    "district": "Bijapur",
+    "state": "Karnataka",
+    "data": "960"
+  },
+  {
+    "district": "Jamnagar",
+    "state": "Gujarat",
+    "data": "939"
+  },
+  {
+    "district": "Dindigul",
+    "state": "Tamil Nadu",
+    "data": "998"
+  },
+  {
+    "district": "Balrampur",
+    "state": "Uttar Pradesh",
+    "data": "928"
+  },
+  {
+    "district": "Jhunjhunun",
+    "state": "Rajasthan",
+    "data": "950"
+  },
+  {
+    "district": "Alappuzha",
+    "state": "Kerala",
+    "data": "1100"
+  },
+  {
+    "district": "Dohad",
+    "state": "Gujarat",
+    "data": "990"
+  },
+  {
+    "district": "Sundargarh",
+    "state": "Orissa",
+    "data": "973"
+  },
+  {
+    "district": "Anand",
+    "state": "Gujarat",
+    "data": "925"
+  },
+  {
+    "district": "Kachchh",
+    "state": "Gujarat",
+    "data": "908"
+  },
+  {
+    "district": "Chhindwara",
+    "state": "Madhya Pradesh",
+    "data": "964"
+  },
+  {
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "data": "1020"
+  },
+  {
+    "district": "Bokaro",
+    "state": "Jharkhand",
+    "data": "922"
+  },
+  {
+    "district": "Dhule",
+    "state": "Maharashtra",
+    "data": "946"
+  },
+  {
+    "district": "Churu",
+    "state": "Rajasthan",
+    "data": "940"
+  },
+  {
+    "district": "Pali",
+    "state": "Rajasthan",
+    "data": "987"
+  },
+  {
+    "district": "Mahesana",
+    "state": "Gujarat",
+    "data": "926"
+  },
+  {
+    "district": "Banka",
+    "state": "Bihar",
+    "data": "907"
+  },
+  {
+    "district": "Gwalior",
+    "state": "Madhya Pradesh",
+    "data": "864"
+  },
+  {
+    "district": "Pilibhit",
+    "state": "Uttar Pradesh",
+    "data": "895"
+  },
+  {
+    "district": "Firozpur",
+    "state": "Punjab",
+    "data": "893"
+  },
+  {
+    "district": "Madhepura",
+    "state": "Bihar",
+    "data": "911"
+  },
+  {
+    "district": "Jhansi",
+    "state": "Uttar Pradesh",
+    "data": "890"
+  },
+  {
+    "district": "Ujjain",
+    "state": "Madhya Pradesh",
+    "data": "955"
+  },
+  {
+    "district": "Kottayam",
+    "state": "Kerala",
+    "data": "1039"
+  },
+  {
+    "district": "Ganganagar",
+    "state": "Rajasthan",
+    "data": "887"
+  },
+  {
+    "district": "Morena",
+    "state": "Madhya Pradesh",
+    "data": "840"
+  },
+  {
+    "district": "Jalna",
+    "state": "Maharashtra",
+    "data": "937"
+  },
+  {
+    "district": "Chandauli",
+    "state": "Uttar Pradesh",
+    "data": "918"
+  },
+  {
+    "district": "Kota",
+    "state": "Rajasthan",
+    "data": "911"
+  },
+  {
+    "district": "Dhubri",
+    "state": "Assam",
+    "data": "953"
+  },
+  {
+    "district": "Davanagere",
+    "state": "Karnataka",
+    "data": "972"
+  },
+  {
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "data": "1007"
+  },
+  {
+    "district": "Palamu",
+    "state": "Jharkhand",
+    "data": "928"
+  },
+  {
+    "district": "Raichur",
+    "state": "Karnataka",
+    "data": "1000"
+  },
+  {
+    "district": "Sonitpur",
+    "state": "Assam",
+    "data": "956"
+  },
+  {
+    "district": "Saharsa",
+    "state": "Bihar",
+    "data": "906"
+  },
+  {
+    "district": "Patiala",
+    "state": "Punjab",
+    "data": "891"
+  },
+  {
+    "district": "Haridwar",
+    "state": "Uttarakhand",
+    "data": "880"
+  },
+  {
+    "district": "Bagalkot",
+    "state": "Karnataka",
+    "data": "989"
+  },
+  {
+    "district": "Farrukhabad",
+    "state": "Uttar Pradesh",
+    "data": "874"
+  },
+  {
+    "district": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "data": "958"
+  },
+  {
+    "district": "West Nimar",
+    "state": "Madhya Pradesh",
+    "data": "965"
+  },
+  {
+    "district": "Kanniyakumari",
+    "state": "Tamil Nadu",
+    "data": "1019"
+  },
+  {
+    "district": "Mainpuri",
+    "state": "Uttar Pradesh",
+    "data": "881"
+  },
+  {
+    "district": "Sonbhadra",
+    "state": "Uttar Pradesh",
+    "data": "918"
+  },
+  {
+    "district": "Dharwad",
+    "state": "Karnataka",
+    "data": "971"
+  },
+  {
+    "district": "Darjiling",
+    "state": "West Bengal",
+    "data": "970"
+  },
+  {
+    "district": "Jyotiba Phule Nagar",
+    "state": "Uttar Pradesh",
+    "data": "910"
+  },
+  {
+    "district": "Parbhani",
+    "state": "Maharashtra",
+    "data": "947"
+  },
+  {
+    "district": "Jalor",
+    "state": "Rajasthan",
+    "data": "952"
+  },
+  {
+    "district": "Jajapur",
+    "state": "Orissa",
+    "data": "973"
+  },
+  {
+    "district": "Akola",
+    "state": "Maharashtra",
+    "data": "946"
+  },
+  {
+    "district": "Faridabad",
+    "state": "Haryana",
+    "data": "873"
+  },
+  {
+    "district": "Mandya",
+    "state": "Karnataka",
+    "data": "995"
+  },
+  {
+    "district": "Kendujhar",
+    "state": "Orissa",
+    "data": "988"
+  },
+  {
+    "district": "Banda",
+    "state": "Uttar Pradesh",
+    "data": "863"
+  },
+  {
+    "district": "Banswara",
+    "state": "Rajasthan",
+    "data": "980"
+  },
+  {
+    "district": "Ramabai Nagar",
+    "state": "Uttar Pradesh",
+    "data": "865"
+  },
+  {
+    "district": "Hassan",
+    "state": "Karnataka",
+    "data": "1010"
+  },
+  {
+    "district": "Hanumangarh",
+    "state": "Rajasthan",
+    "data": "906"
+  },
+  {
+    "district": "Etah",
+    "state": "Uttar Pradesh",
+    "data": "873"
+  },
+  {
+    "district": "Chhattarpur",
+    "state": "Madhya Pradesh",
+    "data": "883"
+  },
+  {
+    "district": "Jamui",
+    "state": "Bihar",
+    "data": "922"
+  },
+  {
+    "district": "Surendranagar",
+    "state": "Gujarat",
+    "data": "930"
+  },
+  {
+    "district": "Shimoga",
+    "state": "Karnataka",
+    "data": "998"
+  },
+  {
+    "district": "Thoothukkudi",
+    "state": "Tamil Nadu",
+    "data": "1023"
+  },
+  {
+    "district": "Hisar",
+    "state": "Haryana",
+    "data": "872"
+  },
+  {
+    "district": "Cachar",
+    "state": "Assam",
+    "data": "959"
+  },
+  {
+    "district": "Hazaribagh",
+    "state": "Jharkhand",
+    "data": "947"
+  },
+  {
+    "district": "Namakkal",
+    "state": "Tamil Nadu",
+    "data": "986"
+  },
+  {
+    "district": "Shivpuri",
+    "state": "Madhya Pradesh",
+    "data": "877"
+  },
+  {
+    "district": "West Tripura",
+    "state": "Tripura",
+    "data": "962"
+  },
+  {
+    "district": "Sant Kabir Nagar",
+    "state": "Uttar Pradesh",
+    "data": "972"
+  },
+  {
+    "district": "East Delhi",
+    "state": "Delhi",
+    "data": "884"
+  },
+  {
+    "district": "Buxar",
+    "state": "Bihar",
+    "data": "922"
+  },
+  {
+    "district": "Valsad",
+    "state": "Gujarat",
+    "data": "922"
+  },
+  {
+    "district": "Bidar",
+    "state": "Karnataka",
+    "data": "956"
+  },
+  {
+    "district": "Bhind",
+    "state": "Madhya Pradesh",
+    "data": "837"
+  },
+  {
+    "district": "Balaghat",
+    "state": "Madhya Pradesh",
+    "data": "1021"
+  },
+  {
+    "district": "Puri",
+    "state": "Orissa",
+    "data": "963"
+  },
+  {
+    "district": "Dehradun",
+    "state": "Uttarakhand",
+    "data": "902"
+  },
+  {
+    "district": "Barpeta",
+    "state": "Assam",
+    "data": "953"
+  },
+  {
+    "district": "Kishanganj",
+    "state": "Bihar",
+    "data": "950"
+  },
+  {
+    "district": "Jalaun",
+    "state": "Uttar Pradesh",
+    "data": "865"
+  },
+  {
+    "district": "Dakshin Dinajpur",
+    "state": "West Bengal",
+    "data": "956"
+  },
+  {
+    "district": "Khagaria",
+    "state": "Bihar",
+    "data": "886"
+  },
+  {
+    "district": "Chitradurga",
+    "state": "Karnataka",
+    "data": "974"
+  },
+  {
+    "district": "Osmanabad",
+    "state": "Maharashtra",
+    "data": "924"
+  },
+  {
+    "district": "Kannauj",
+    "state": "Uttar Pradesh",
+    "data": "879"
+  },
+  {
+    "district": "Sangrur",
+    "state": "Punjab",
+    "data": "885"
+  },
+  {
+    "district": "Balangir",
+    "state": "Orissa",
+    "data": "987"
+  },
+  {
+    "district": "Udham Singh Nagar",
+    "state": "Uttarakhand",
+    "data": "920"
+  },
+  {
+    "district": "Nandurbar",
+    "state": "Maharashtra",
+    "data": "978"
+  },
+  {
+    "district": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh",
+    "data": "851"
+  },
+  {
+    "district": "Bhiwani",
+    "state": "Haryana",
+    "data": "886"
+  },
+  {
+    "district": "Dausa",
+    "state": "Rajasthan",
+    "data": "905"
+  },
+  {
+    "district": "Kaimur",
+    "state": "Bihar",
+    "data": "920"
+  },
+  {
+    "district": "Janjgir Champa",
+    "state": "Chhattisgarh",
+    "data": "986"
+  },
+  {
+    "district": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "data": "1015"
+  },
+  {
+    "district": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "data": "1025"
+  },
+  {
+    "district": "Ratnagiri",
+    "state": "Maharashtra",
+    "data": "1122"
+  },
+  {
+    "district": "Kaushambi",
+    "state": "Uttar Pradesh",
+    "data": "908"
+  },
+  {
+    "district": "Haveri",
+    "state": "Karnataka",
+    "data": "950"
+  },
+  {
+    "district": "Hoshiarpur",
+    "state": "Punjab",
+    "data": "961"
+  },
+  {
+    "district": "Etawah",
+    "state": "Uttar Pradesh",
+    "data": "870"
+  },
+  {
+    "district": "Sant Ravidas Nagar",
+    "state": "Uttar Pradesh",
+    "data": "955"
+  },
+  {
+    "district": "Kalahandi",
+    "state": "Orissa",
+    "data": "1003"
+  },
+  {
+    "district": "Betul",
+    "state": "Madhya Pradesh",
+    "data": "971"
+  },
+  {
+    "district": "Mahamaya Nagar",
+    "state": "Uttar Pradesh",
+    "data": "871"
+  },
+  {
+    "district": "Dewas",
+    "state": "Madhya Pradesh",
+    "data": "942"
+  },
+  {
+    "district": "Bharuch",
+    "state": "Gujarat",
+    "data": "925"
+  },
+  {
+    "district": "Rajgarh",
+    "state": "Madhya Pradesh",
+    "data": "956"
+  },
+  {
+    "district": "Chittaurgarh",
+    "state": "Rajasthan",
+    "data": "972"
+  },
+  {
+    "district": "Rajnandgaon",
+    "state": "Chhattisgarh",
+    "data": "1015"
+  },
+  {
+    "district": "Kolar",
+    "state": "Karnataka",
+    "data": "979"
+  },
+  {
+    "district": "Jammu",
+    "state": "Jammu and Kashmir",
+    "data": "880"
+  },
+  {
+    "district": "Kamrup",
+    "state": "Assam",
+    "data": "949"
+  },
+  {
+    "district": "Gurgaon",
+    "state": "Haryana",
+    "data": "854"
+  },
+  {
+    "district": "Amreli",
+    "state": "Gujarat",
+    "data": "964"
+  },
+  {
+    "district": "Shajapur",
+    "state": "Madhya Pradesh",
+    "data": "938"
+  },
+  {
+    "district": "Kangra",
+    "state": "Himachal Pradesh",
+    "data": "1012"
+  },
+  {
+    "district": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "data": "946"
+  },
+  {
+    "district": "Bhadrak",
+    "state": "Orissa",
+    "data": "981"
+  },
+  {
+    "district": "Karnal",
+    "state": "Haryana",
+    "data": "887"
+  },
+  {
+    "district": "Pashchimi Singhbhum",
+    "state": "Jharkhand",
+    "data": "1005"
+  },
+  {
+    "district": "Raigarh",
+    "state": "Chhattisgarh",
+    "data": "991"
+  },
+  {
+    "district": "Deoghar",
+    "state": "Jharkhand",
+    "data": "925"
+  },
+  {
+    "district": "Bargarh",
+    "state": "Orissa",
+    "data": "977"
+  },
+  {
+    "district": "Vidisha",
+    "state": "Madhya Pradesh",
+    "data": "896"
+  },
+  {
+    "district": "Karauli",
+    "state": "Rajasthan",
+    "data": "861"
+  },
+  {
+    "district": "Ratlam",
+    "state": "Madhya Pradesh",
+    "data": "971"
+  },
+  {
+    "district": "Sonipat",
+    "state": "Haryana",
+    "data": "856"
+  },
+  {
+    "district": "Tikamgarh",
+    "state": "Madhya Pradesh",
+    "data": "901"
+  },
+  {
+    "district": "Kendrapara",
+    "state": "Orissa",
+    "data": "1007"
+  },
+  {
+    "district": "Uttara Kannada",
+    "state": "Karnataka",
+    "data": "979"
+  },
+  {
+    "district": "Kanshiram Nagar",
+    "state": "Uttar Pradesh",
+    "data": "880"
+  },
+  {
+    "district": "Tonk",
+    "state": "Rajasthan",
+    "data": "952"
+  },
+  {
+    "district": "Bastar",
+    "state": "Chhattisgarh",
+    "data": "1023"
+  },
+  {
+    "district": "Jhalawar",
+    "state": "Rajasthan",
+    "data": "946"
+  },
+  {
+    "district": "Gandhinagar",
+    "state": "Gujarat",
+    "data": "923"
+  },
+  {
+    "district": "Koppal",
+    "state": "Karnataka",
+    "data": "986"
+  },
+  {
+    "district": "Dungarpur",
+    "state": "Rajasthan",
+    "data": "994"
+  },
+  {
+    "district": "Bathinda",
+    "state": "Punjab",
+    "data": "868"
+  },
+  {
+    "district": "Barwani",
+    "state": "Madhya Pradesh",
+    "data": "982"
+  },
+  {
+    "district": "Koraput",
+    "state": "Orissa",
+    "data": "1032"
+  },
+  {
+    "district": "Auraiya",
+    "state": "Uttar Pradesh",
+    "data": "864"
+  },
+  {
+    "district": "Seoni",
+    "state": "Madhya Pradesh",
+    "data": "982"
+  },
+  {
+    "district": "Munger",
+    "state": "Bihar",
+    "data": "876"
+  },
+  {
+    "district": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "data": "983"
+  },
+  {
+    "district": "Patan",
+    "state": "Gujarat",
+    "data": "935"
+  },
+  {
+    "district": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "data": "963"
+  },
+  {
+    "district": "Sivaganga",
+    "state": "Tamil Nadu",
+    "data": "1003"
+  },
+  {
+    "district": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "data": "897"
+  },
+  {
+    "district": "Jind",
+    "state": "Haryana",
+    "data": "871"
+  },
+  {
+    "district": "Raisen",
+    "state": "Madhya Pradesh",
+    "data": "901"
+  },
+  {
+    "district": "Navsari",
+    "state": "Gujarat",
+    "data": "961"
+  },
+  {
+    "district": "Tinsukia",
+    "state": "Assam",
+    "data": "952"
+  },
+  {
+    "district": "Dibrugarh",
+    "state": "Assam",
+    "data": "961"
+  },
+  {
+    "district": "Garhwa",
+    "state": "Jharkhand",
+    "data": "935"
+  },
+  {
+    "district": "Gondiya",
+    "state": "Maharashtra",
+    "data": "999"
+  },
+  {
+    "district": "Dumka",
+    "state": "Jharkhand",
+    "data": "977"
+  },
+  {
+    "district": "Godda",
+    "state": "Jharkhand",
+    "data": "938"
+  },
+  {
+    "district": "Sehore",
+    "state": "Madhya Pradesh",
+    "data": "918"
+  },
+  {
+    "district": "East Nimar",
+    "state": "Madhya Pradesh",
+    "data": "943"
+  },
+  {
+    "district": "Kasaragod",
+    "state": "Kerala",
+    "data": "1080"
+  },
+  {
+    "district": "Baghpat",
+    "state": "Uttar Pradesh",
+    "data": "861"
+  },
+  {
+    "district": "Wardha",
+    "state": "Maharashtra",
+    "data": "946"
+  },
+  {
+    "district": "Sirsa",
+    "state": "Haryana",
+    "data": "897"
+  },
+  {
+    "district": "Katni",
+    "state": "Madhya Pradesh",
+    "data": "952"
+  },
+  {
+    "district": "Anugul",
+    "state": "Orissa",
+    "data": "943"
+  },
+  {
+    "district": "Thiruvarur",
+    "state": "Tamil Nadu",
+    "data": "1017"
+  },
+  {
+    "district": "Damoh",
+    "state": "Madhya Pradesh",
+    "data": "910"
+  },
+  {
+    "district": "Chikkaballapura",
+    "state": "Karnataka",
+    "data": "972"
+  },
+  {
+    "district": "Kamrup Metropolitan",
+    "state": "Assam",
+    "data": "936"
+  },
+  {
+    "district": "Theni",
+    "state": "Tamil Nadu",
+    "data": "991"
+  },
+  {
+    "district": "Guna",
+    "state": "Madhya Pradesh",
+    "data": "912"
+  },
+  {
+    "district": "Hoshangabad",
+    "state": "Madhya Pradesh",
+    "data": "914"
+  },
+  {
+    "district": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "data": "900"
+  },
+  {
+    "district": "Karimganj",
+    "state": "Assam",
+    "data": "963"
+  },
+  {
+    "district": "Baran",
+    "state": "Rajasthan",
+    "data": "929"
+  },
+  {
+    "district": "Lalitpur",
+    "state": "Uttar Pradesh",
+    "data": "906"
+  },
+  {
+    "district": "Nabarangapur",
+    "state": "Orissa",
+    "data": "1019"
+  },
+  {
+    "district": "Yamunanagar",
+    "state": "Haryana",
+    "data": "877"
+  },
+  {
+    "district": "Korba",
+    "state": "Chhattisgarh",
+    "data": "969"
+  },
+  {
+    "district": "Dhaulpur",
+    "state": "Rajasthan",
+    "data": "846"
+  },
+  {
+    "district": "Panipat",
+    "state": "Haryana",
+    "data": "864"
+  },
+  {
+    "district": "Bhandara",
+    "state": "Maharashtra",
+    "data": "982"
+  },
+  {
+    "district": "Pathanamthitta",
+    "state": "Kerala",
+    "data": "1132"
+  },
+  {
+    "district": "Washim",
+    "state": "Maharashtra",
+    "data": "930"
+  },
+  {
+    "district": "Dhenkanal",
+    "state": "Orissa",
+    "data": "947"
+  },
+  {
+    "district": "Singrauli",
+    "state": "Madhya Pradesh",
+    "data": "920"
+  },
+  {
+    "district": "Udupi",
+    "state": "Karnataka",
+    "data": "1094"
+  },
+  {
+    "district": "Hingoli",
+    "state": "Maharashtra",
+    "data": "942"
+  },
+  {
+    "district": "Yadgir",
+    "state": "Karnataka",
+    "data": "989"
+  },
+  {
+    "district": "Rajsamand",
+    "state": "Rajasthan",
+    "data": "990"
+  },
+  {
+    "district": "Sivasagar",
+    "state": "Assam",
+    "data": "954"
+  },
+  {
+    "district": "Sahibganj",
+    "state": "Jharkhand",
+    "data": "952"
+  },
+  {
+    "district": "Chikmagalur",
+    "state": "Karnataka",
+    "data": "1008"
+  },
+  {
+    "district": "Jagatsinghapur",
+    "state": "Orissa",
+    "data": "968"
+  },
+  {
+    "district": "Ambala",
+    "state": "Haryana",
+    "data": "885"
+  },
+  {
+    "district": "Sidhi",
+    "state": "Madhya Pradesh",
+    "data": "957"
+  },
+  {
+    "district": "Jehanabad",
+    "state": "Bihar",
+    "data": "922"
+  },
+  {
+    "district": "Tarn Taran",
+    "state": "Punjab",
+    "data": "900"
+  },
+  {
+    "district": "Shrawasti",
+    "state": "Uttar Pradesh",
+    "data": "881"
+  },
+  {
+    "district": "Bundi",
+    "state": "Rajasthan",
+    "data": "925"
+  },
+  {
+    "district": "Idukki",
+    "state": "Kerala",
+    "data": "1006"
+  },
+  {
+    "district": "Hamirpur",
+    "state": "Uttar Pradesh",
+    "data": "861"
+  },
+  {
+    "district": "Jorhat",
+    "state": "Assam",
+    "data": "962"
+  },
+  {
+    "district": "Narsimhapur",
+    "state": "Madhya Pradesh",
+    "data": "920"
+  },
+  {
+    "district": "Mewat",
+    "state": "Haryana",
+    "data": "907"
+  },
+  {
+    "district": "Ramanagara",
+    "state": "Karnataka",
+    "data": "976"
+  },
+  {
+    "district": "Anantnag",
+    "state": "Jammu and Kashmir",
+    "data": "927"
+  },
+  {
+    "district": "Kaithal",
+    "state": "Haryana",
+    "data": "881"
+  },
+  {
+    "district": "Gadchiroli",
+    "state": "Maharashtra",
+    "data": "982"
+  },
+  {
+    "district": "Golaghat",
+    "state": "Assam",
+    "data": "964"
+  },
+  {
+    "district": "Shahdol",
+    "state": "Madhya Pradesh",
+    "data": "974"
+  },
+  {
+    "district": "Saraikela Kharsawan",
+    "state": "Jharkhand",
+    "data": "956"
+  },
+  {
+    "district": "Gadag",
+    "state": "Karnataka",
+    "data": "982"
+  },
+  {
+    "district": "Karur",
+    "state": "Tamil Nadu",
+    "data": "1015"
+  },
+  {
+    "district": "Rohtak",
+    "state": "Haryana",
+    "data": "867"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "data": "818"
+  },
+  {
+    "district": "Mandla",
+    "state": "Madhya Pradesh",
+    "data": "1008"
+  },
+  {
+    "district": "Chatra",
+    "state": "Jharkhand",
+    "data": "953"
+  },
+  {
+    "district": "Palwal",
+    "state": "Haryana",
+    "data": "880"
+  },
+  {
+    "district": "Lakhimpur",
+    "state": "Assam",
+    "data": "968"
+  },
+  {
+    "district": "Sambalpur",
+    "state": "Orissa",
+    "data": "976"
+  },
+  {
+    "district": "Sirohi",
+    "state": "Rajasthan",
+    "data": "940"
+  },
+  {
+    "district": "Mahasamund",
+    "state": "Chhattisgarh",
+    "data": "1017"
+  },
+  {
+    "district": "Gumla",
+    "state": "Jharkhand",
+    "data": "993"
+  },
+  {
+    "district": "Jhabua",
+    "state": "Madhya Pradesh",
+    "data": "990"
+  },
+  {
+    "district": "Chamarajanagar",
+    "state": "Karnataka",
+    "data": "993"
+  },
+  {
+    "district": "Panna",
+    "state": "Madhya Pradesh",
+    "data": "905"
+  },
+  {
+    "district": "Goalpara",
+    "state": "Assam",
+    "data": "964"
+  },
+  {
+    "district": "Baramula",
+    "state": "Jammu and Kashmir",
+    "data": "885"
+  },
+  {
+    "district": "Lakhisarai",
+    "state": "Bihar",
+    "data": "902"
+  },
+  {
+    "district": "Mandi",
+    "state": "Himachal Pradesh",
+    "data": "1007"
+  },
+  {
+    "district": "Moga",
+    "state": "Punjab",
+    "data": "893"
+  },
+  {
+    "district": "Mohali",
+    "state": "Punjab",
+    "data": "879"
+  },
+  {
+    "district": "Chitrakoot",
+    "state": "Uttar Pradesh",
+    "data": "879"
+  },
+  {
+    "district": "Bangalore Rural",
+    "state": "Karnataka",
+    "data": "946"
+  },
+  {
+    "district": "Rayagada",
+    "state": "Orissa",
+    "data": "1051"
+  },
+  {
+    "district": "Kurukshetra",
+    "state": "Haryana",
+    "data": "888"
+  },
+  {
+    "district": "Nayagarh",
+    "state": "Orissa",
+    "data": "915"
+  },
+  {
+    "district": "Jhajjar",
+    "state": "Haryana",
+    "data": "862"
+  },
+  {
+    "district": "Morigaon",
+    "state": "Assam",
+    "data": "967"
+  },
+  {
+    "district": "Karbi Anglong",
+    "state": "Assam",
+    "data": "951"
+  },
+  {
+    "district": "Nainital",
+    "state": "Uttarakhand",
+    "data": "934"
+  },
+  {
+    "district": "Puducherry",
+    "state": "Puducherry",
+    "data": "1029"
+  },
+  {
+    "district": "Baksa",
+    "state": "Assam",
+    "data": "974"
+  },
+  {
+    "district": "Ramgarh",
+    "state": "Jharkhand",
+    "data": "921"
+  },
+  {
+    "district": "Fatehabad",
+    "state": "Haryana",
+    "data": "902"
+  },
+  {
+    "district": "Darrang",
+    "state": "Assam",
+    "data": "954"
+  },
+  {
+    "district": "Mahendragarh",
+    "state": "Haryana",
+    "data": "895"
+  },
+  {
+    "district": "Muktsar",
+    "state": "Punjab",
+    "data": "896"
+  },
+  {
+    "district": "Pakur",
+    "state": "Jharkhand",
+    "data": "989"
+  },
+  {
+    "district": "Rewari",
+    "state": "Haryana",
+    "data": "898"
+  },
+  {
+    "district": "North Delhi",
+    "state": "Delhi",
+    "data": "869"
+  },
+  {
+    "district": "Kokrajhar",
+    "state": "Assam",
+    "data": "959"
+  },
+  {
+    "district": "South Tripura",
+    "state": "Tripura",
+    "data": "957"
+  },
+  {
+    "district": "Mahoba",
+    "state": "Uttar Pradesh",
+    "data": "878"
+  },
+  {
+    "district": "Kupwara",
+    "state": "Jammu and Kashmir",
+    "data": "835"
+  },
+  {
+    "district": "Pratapgarh",
+    "state": "Rajasthan",
+    "data": "983"
+  },
+  {
+    "district": "Jashpur",
+    "state": "Chhattisgarh",
+    "data": "1005"
+  },
+  {
+    "district": "Sindhudurg",
+    "state": "Maharashtra",
+    "data": "1036"
+  },
+  {
+    "district": "Ashoknagar",
+    "state": "Madhya Pradesh",
+    "data": "904"
+  },
+  {
+    "district": "Udalguri",
+    "state": "Assam",
+    "data": "973"
+  },
+  {
+    "district": "Neemuch",
+    "state": "Madhya Pradesh",
+    "data": "954"
+  },
+  {
+    "district": "East Khasi Hills",
+    "state": "Meghalaya",
+    "data": "1011"
+  },
+  {
+    "district": "Kabirdham",
+    "state": "Chhattisgarh",
+    "data": "996"
+  },
+  {
+    "district": "North Goa",
+    "state": "Goa",
+    "data": "963"
+  },
+  {
+    "district": "Wayanad",
+    "state": "Kerala",
+    "data": "1035"
+  },
+  {
+    "district": "Kapurthala",
+    "state": "Punjab",
+    "data": "912"
+  },
+  {
+    "district": "Shimla",
+    "state": "Himachal Pradesh",
+    "data": "915"
+  },
+  {
+    "district": "Tapi",
+    "state": "Gujarat",
+    "data": "1007"
+  },
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "data": "1010"
+  },
+  {
+    "district": "Jamtara",
+    "state": "Jharkhand",
+    "data": "954"
+  },
+  {
+    "district": "Datia",
+    "state": "Madhya Pradesh",
+    "data": "873"
+  },
+  {
+    "district": "Nalbari",
+    "state": "Assam",
+    "data": "949"
+  },
+  {
+    "district": "Mansa",
+    "state": "Punjab",
+    "data": "883"
+  },
+  {
+    "district": "Burhanpur",
+    "state": "Madhya Pradesh",
+    "data": "951"
+  },
+  {
+    "district": "Ariyalur",
+    "state": "Tamil Nadu",
+    "data": "1015"
+  },
+  {
+    "district": "Badgam",
+    "state": "Jammu and Kashmir",
+    "data": "894"
+  },
+  {
+    "district": "Anuppur",
+    "state": "Madhya Pradesh",
+    "data": "976"
+  },
+  {
+    "district": "Kanker",
+    "state": "Chhattisgarh",
+    "data": "1006"
+  },
+  {
+    "district": "Bongaigaon",
+    "state": "Assam",
+    "data": "966"
+  },
+  {
+    "district": "The Nilgiris",
+    "state": "Tamil Nadu",
+    "data": "1042"
+  },
+  {
+    "district": "Kandhamal",
+    "state": "Orissa",
+    "data": "1037"
+  },
+  {
+    "district": "Alirajpur",
+    "state": "Madhya Pradesh",
+    "data": "1011"
+  },
+  {
+    "district": "Latehar",
+    "state": "Jharkhand",
+    "data": "967"
+  },
+  {
+    "district": "Kodarma",
+    "state": "Jharkhand",
+    "data": "950"
+  },
+  {
+    "district": "Dindori",
+    "state": "Madhya Pradesh",
+    "data": "1002"
+  },
+  {
+    "district": "Arwal",
+    "state": "Bihar",
+    "data": "928"
+  },
+  {
+    "district": "North Tripura",
+    "state": "Tripura",
+    "data": "967"
+  },
+  {
+    "district": "Sheopur",
+    "state": "Madhya Pradesh",
+    "data": "901"
+  },
+  {
+    "district": "Pauri Garhwal",
+    "state": "Uttarakhand",
+    "data": "1103"
+  },
+  {
+    "district": "Dhemaji",
+    "state": "Assam",
+    "data": "953"
+  },
+  {
+    "district": "Rupnagar",
+    "state": "Punjab",
+    "data": "915"
+  },
+  {
+    "district": "Jaisalmer",
+    "state": "Rajasthan",
+    "data": "852"
+  },
+  {
+    "district": "Hailakandi",
+    "state": "Assam",
+    "data": "951"
+  },
+  {
+    "district": "Korea",
+    "state": "Chhattisgarh",
+    "data": "968"
+  },
+  {
+    "district": "Sheohar",
+    "state": "Bihar",
+    "data": "893"
+  },
+  {
+    "district": "Umaria",
+    "state": "Madhya Pradesh",
+    "data": "950"
+  },
+  {
+    "district": "West Garo Hills",
+    "state": "Meghalaya",
+    "data": "984"
+  },
+  {
+    "district": "Rajouri",
+    "state": "Jammu and Kashmir",
+    "data": "860"
+  },
+  {
+    "district": "South Goa",
+    "state": "Goa",
+    "data": "986"
+  },
+  {
+    "district": "Sheikhpura",
+    "state": "Bihar",
+    "data": "930"
+  },
+  {
+    "district": "Almora",
+    "state": "Uttarakhand",
+    "data": "1139"
+  },
+  {
+    "district": "Tehri Garhwal",
+    "state": "Uttarakhand",
+    "data": "1077"
+  },
+  {
+    "district": "Faridkot",
+    "state": "Punjab",
+    "data": "890"
+  },
+  {
+    "district": "Kathua",
+    "state": "Jammu and Kashmir",
+    "data": "890"
+  },
+  {
+    "district": "Malkangiri",
+    "state": "Orissa",
+    "data": "1020"
+  },
+  {
+    "district": "Shahid Bhagat Singh Nagar",
+    "state": "Punjab",
+    "data": "954"
+  },
+  {
+    "district": "Nuapada",
+    "state": "Orissa",
+    "data": "1021"
+  },
+  {
+    "district": "Subarnapur",
+    "state": "Orissa",
+    "data": "960"
+  },
+  {
+    "district": "Fatehgarh Sahib",
+    "state": "Punjab",
+    "data": "871"
+  },
+  {
+    "district": "Simdega",
+    "state": "Jharkhand",
+    "data": "997"
+  },
+  {
+    "district": "Barnala",
+    "state": "Punjab",
+    "data": "876"
+  },
+  {
+    "district": "Narmada",
+    "state": "Gujarat",
+    "data": "961"
+  },
+  {
+    "district": "Porbandar",
+    "state": "Gujarat",
+    "data": "950"
+  },
+  {
+    "district": "Central Delhi",
+    "state": "Delhi",
+    "data": "892"
+  },
+  {
+    "district": "Solan",
+    "state": "Himachal Pradesh",
+    "data": "880"
+  },
+  {
+    "district": "Jharsuguda",
+    "state": "Orissa",
+    "data": "953"
+  },
+  {
+    "district": "Gajapati",
+    "state": "Orissa",
+    "data": "1043"
+  },
+  {
+    "district": "Harda",
+    "state": "Madhya Pradesh",
+    "data": "935"
+  },
+  {
+    "district": "Perambalur",
+    "state": "Tamil Nadu",
+    "data": "1003"
+  },
+  {
+    "district": "Panchkula",
+    "state": "Haryana",
+    "data": "873"
+  },
+  {
+    "district": "Pulwama",
+    "state": "Jammu and Kashmir",
+    "data": "912"
+  },
+  {
+    "district": "Udhampur",
+    "state": "Jammu and Kashmir",
+    "data": "870"
+  },
+  {
+    "district": "Kodagu",
+    "state": "Karnataka",
+    "data": "1019"
+  },
+  {
+    "district": "Dantewada",
+    "state": "Chhattisgarh",
+    "data": "1020"
+  },
+  {
+    "district": "Khunti",
+    "state": "Jharkhand",
+    "data": "997"
+  },
+  {
+    "district": "Sirmaur",
+    "state": "Himachal Pradesh",
+    "data": "918"
+  },
+  {
+    "district": "Una",
+    "state": "Himachal Pradesh",
+    "data": "976"
+  },
+  {
+    "district": "Chamba",
+    "state": "Himachal Pradesh",
+    "data": "986"
+  },
+  {
+    "district": "Imphal West",
+    "state": "Manipur",
+    "data": "1031"
+  },
+  {
+    "district": "Pithoragarh",
+    "state": "Uttarakhand",
+    "data": "1020"
+  },
+  {
+    "district": "Chirang",
+    "state": "Assam",
+    "data": "969"
+  },
+  {
+    "district": "Senapati",
+    "state": "Manipur",
+    "data": "937"
+  },
+  {
+    "district": "Punch",
+    "state": "Jammu and Kashmir",
+    "data": "893"
+  },
+  {
+    "district": "Lohardaga",
+    "state": "Jharkhand",
+    "data": "985"
+  },
+  {
+    "district": "Imphal East",
+    "state": "Manipur",
+    "data": "1017"
+  },
+  {
+    "district": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "data": "1095"
+  },
+  {
+    "district": "Baudh",
+    "state": "Orissa",
+    "data": "991"
+  },
+  {
+    "district": "Kullu",
+    "state": "Himachal Pradesh",
+    "data": "942"
+  },
+  {
+    "district": "Kulgam",
+    "state": "Jammu and Kashmir",
+    "data": "951"
+  },
+  {
+    "district": "Thoubal",
+    "state": "Manipur",
+    "data": "1002"
+  },
+  {
+    "district": "Doda",
+    "state": "Jammu and Kashmir",
+    "data": "919"
+  },
+  {
+    "district": "Aizawl",
+    "state": "Mizoram",
+    "data": "1009"
+  },
+  {
+    "district": "Jaintia Hills",
+    "state": "Meghalaya",
+    "data": "1013"
+  },
+  {
+    "district": "Bandipora",
+    "state": "Jammu and Kashmir",
+    "data": "889"
+  },
+  {
+    "district": "Chamoli",
+    "state": "Uttarakhand",
+    "data": "1019"
+  },
+  {
+    "district": "West Khasi Hills",
+    "state": "Meghalaya",
+    "data": "980"
+  },
+  {
+    "district": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "data": "981"
+  },
+  {
+    "district": "Dimapur",
+    "state": "Nagaland",
+    "data": "919"
+  },
+  {
+    "district": "Dhalai",
+    "state": "Tripura",
+    "data": "944"
+  },
+  {
+    "district": "Dadra and Nagar Haveli",
+    "state": "Dadra and Nagar Haveli",
+    "data": "774"
+  },
+  {
+    "district": "Uttarkashi",
+    "state": "Uttarakhand",
+    "data": "958"
+  },
+  {
+    "district": "Samba",
+    "state": "Jammu and Kashmir",
+    "data": "886"
+  },
+  {
+    "district": "East Garo Hills",
+    "state": "Meghalaya",
+    "data": "972"
+  },
+  {
+    "district": "Reasi",
+    "state": "Jammu and Kashmir",
+    "data": "890"
+  },
+  {
+    "district": "Debagarh",
+    "state": "Orissa",
+    "data": "975"
+  },
+  {
+    "district": "Ganderbal",
+    "state": "Jammu and Kashmir",
+    "data": "874"
+  },
+  {
+    "district": "Ramban",
+    "state": "Jammu and Kashmir",
+    "data": "902"
+  },
+  {
+    "district": "East Sikkim",
+    "state": "Sikkim",
+    "data": "873"
+  },
+  {
+    "district": "Churachandpur",
+    "state": "Manipur",
+    "data": "975"
+  },
+  {
+    "district": "Kohima",
+    "state": "Nagaland",
+    "data": "928"
+  },
+  {
+    "district": "Shupiyan",
+    "state": "Jammu and Kashmir",
+    "data": "951"
+  },
+  {
+    "district": "Bageshwar",
+    "state": "Uttarakhand",
+    "data": "1090"
+  },
+  {
+    "district": "Champawat",
+    "state": "Uttarakhand",
+    "data": "980"
+  },
+  {
+    "district": "Ri Bhoi",
+    "state": "Meghalaya",
+    "data": "953"
+  },
+  {
+    "district": "Bijapur",
+    "state": "Chhattisgarh",
+    "data": "984"
+  },
+  {
+    "district": "Mon",
+    "state": "Nagaland",
+    "data": "899"
+  },
+  {
+    "district": "Rudraprayag",
+    "state": "Uttarakhand",
+    "data": "1114"
+  },
+  {
+    "district": "South Andaman",
+    "state": "Andaman And Nicobar Islands",
+    "data": "871"
+  },
+  {
+    "district": "Bishnupur",
+    "state": "Manipur",
+    "data": "999"
+  },
+  {
+    "district": "Kishtwar",
+    "state": "Jammu and Kashmir",
+    "data": "920"
+  },
+  {
+    "district": "The Dangs",
+    "state": "Gujarat",
+    "data": "1006"
+  },
+  {
+    "district": "Dima Hasao",
+    "state": "Assam",
+    "data": "932"
+  },
+  {
+    "district": "Karaikal",
+    "state": "Puducherry",
+    "data": "1047"
+  },
+  {
+    "district": "Tuensang",
+    "state": "Nagaland",
+    "data": "929"
+  },
+  {
+    "district": "Mokokchung",
+    "state": "Nagaland",
+    "data": "925"
+  },
+  {
+    "district": "Daman",
+    "state": "Daman and Diu",
+    "data": "534"
+  },
+  {
+    "district": "Ukhrul",
+    "state": "Manipur",
+    "data": "943"
+  },
+  {
+    "district": "Papumpare",
+    "state": "Arunachal Pradesh",
+    "data": "980"
+  },
+  {
+    "district": "Wokha",
+    "state": "Nagaland",
+    "data": "968"
+  },
+  {
+    "district": "Phek",
+    "state": "Nagaland",
+    "data": "951"
+  },
+  {
+    "district": "Lunglei",
+    "state": "Mizoram",
+    "data": "947"
+  },
+  {
+    "district": "Changlang",
+    "state": "Arunachal Pradesh",
+    "data": "926"
+  },
+  {
+    "district": "South Sikkim",
+    "state": "Sikkim",
+    "data": "915"
+  },
+  {
+    "district": "Lohit",
+    "state": "Arunachal Pradesh",
+    "data": "912"
+  },
+  {
+    "district": "Chandel",
+    "state": "Manipur",
+    "data": "933"
+  },
+  {
+    "district": "South Garo Hills",
+    "state": "Meghalaya",
+    "data": "945"
+  },
+  {
+    "district": "New Delhi",
+    "state": "Delhi",
+    "data": "822"
+  },
+  {
+    "district": "Kargil",
+    "state": "Jammu and Kashmir",
+    "data": "810"
+  },
+  {
+    "district": "Zunheboto",
+    "state": "Nagaland",
+    "data": "976"
+  },
+  {
+    "district": "Tamenglong",
+    "state": "Manipur",
+    "data": "943"
+  },
+  {
+    "district": "Narayanpur",
+    "state": "Chhattisgarh",
+    "data": "994"
+  },
+  {
+    "district": "West Sikkim",
+    "state": "Sikkim",
+    "data": "942"
+  },
+  {
+    "district": "Leh",
+    "state": "Jammu and Kashmir",
+    "data": "690"
+  },
+  {
+    "district": "Champhai",
+    "state": "Mizoram",
+    "data": "984"
+  },
+  {
+    "district": "Lawngtlai",
+    "state": "Mizoram",
+    "data": "945"
+  },
+  {
+    "district": "West Siang",
+    "state": "Arunachal Pradesh",
+    "data": "930"
+  },
+  {
+    "district": "Tirap",
+    "state": "Arunachal Pradesh",
+    "data": "944"
+  },
+  {
+    "district": "North And Middle Andaman",
+    "state": "Andaman And Nicobar Islands",
+    "data": "925"
+  },
+  {
+    "district": "East Siang",
+    "state": "Arunachal Pradesh",
+    "data": "980"
+  },
+  {
+    "district": "Peren",
+    "state": "Nagaland",
+    "data": "915"
+  },
+  {
+    "district": "Kurung Kumey",
+    "state": "Arunachal Pradesh",
+    "data": "1032"
+  },
+  {
+    "district": "Mamit",
+    "state": "Mizoram",
+    "data": "927"
+  },
+  {
+    "district": "Kinnaur",
+    "state": "Himachal Pradesh",
+    "data": "819"
+  },
+  {
+    "district": "Kolasib",
+    "state": "Mizoram",
+    "data": "956"
+  },
+  {
+    "district": "West Kameng",
+    "state": "Arunachal Pradesh",
+    "data": "819"
+  },
+  {
+    "district": "Upper Subansiri",
+    "state": "Arunachal Pradesh",
+    "data": "998"
+  },
+  {
+    "district": "Lower Subansiri",
+    "state": "Arunachal Pradesh",
+    "data": "984"
+  },
+  {
+    "district": "East Kameng",
+    "state": "Arunachal Pradesh",
+    "data": "1029"
+  },
+  {
+    "district": "Kiphire",
+    "state": "Nagaland",
+    "data": "956"
+  },
+  {
+    "district": "Serchhip",
+    "state": "Mizoram",
+    "data": "977"
+  },
+  {
+    "district": "Lakshadweep",
+    "state": "Lakshadweep",
+    "data": "946"
+  },
+  {
+    "district": "Saiha",
+    "state": "Mizoram",
+    "data": "979"
+  },
+  {
+    "district": "Yanam",
+    "state": "Puducherry",
+    "data": "1038"
+  },
+  {
+    "district": "Lower Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "data": "928"
+  },
+  {
+    "district": "Diu",
+    "state": "Daman and Diu",
+    "data": "1031"
+  },
+  {
+    "district": "Longleng",
+    "state": "Nagaland",
+    "data": "905"
+  },
+  {
+    "district": "Tawang",
+    "state": "Arunachal Pradesh",
+    "data": "714"
+  },
+  {
+    "district": "North Sikkim",
+    "state": "Sikkim",
+    "data": "767"
+  },
+  {
+    "district": "Mahe",
+    "state": "Puducherry",
+    "data": "1184"
+  },
+  {
+    "district": "Nicobars",
+    "state": "Andaman And Nicobar Islands",
+    "data": "777"
+  },
+  {
+    "district": "Upper Siang",
+    "state": "Arunachal Pradesh",
+    "data": "889"
+  },
+  {
+    "district": "Lahul and Spiti",
+    "state": "Himachal Pradesh",
+    "data": "903"
+  },
+  {
+    "district": "Anjaw",
+    "state": "Arunachal Pradesh",
+    "data": "839"
+  },
+  {
+    "district": "Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "data": "813"
+  }
 ]
